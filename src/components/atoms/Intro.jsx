@@ -15,8 +15,14 @@ class Intro extends Component {
         <h3>Software Engineer</h3>
         <IntroBlurb />
         <Button variant="contained" color="primary">
-          <FontAwesomeIcon icon="file-download" />
-          <span style={{ paddingLeft: '.7em', letterSpacing: '.15em' }}>
+          <FontAwesomeIcon icon="file-download" color="rgb(206, 206, 206)" />
+          <span
+            style={{
+              paddingLeft: '.7em',
+              letterSpacing: '.15em',
+              color: 'rgb(206, 206, 206)',
+            }}
+          >
             Resume
           </span>
         </Button>

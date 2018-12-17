@@ -1,13 +1,27 @@
 #contactButtons {
-  margin-top: 2.1em;
+  margin-top: 2.5em;
+  width: 100%;
 }
 #contactButtons span {
   margin: 0.6em;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
-@media (max-width: 528px) {
-  #contactButtons span {
-    font-size: 1.5em;
+@media (min-width: 769px) {
+  #contactButtons {
+    position: relative;
+    top: -10.5em;
+  }
+}
+
+@media (min-width: 804px) {
+  #contactButtons {
+    top: -9em;
+  }
+}
+
+@media (min-width: 898px) {
+  #contactButtons {
+    top: -10em;
   }
 }

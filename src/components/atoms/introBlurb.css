@@ -1,29 +1,48 @@
 .introBlurb {
-  width: 98%;
+  width: 75%;
   margin: 0 auto;
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 0.5em;
+  margin-bottom: 9em;
 }
 
 .introBlurb p {
   margin: 0;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1090px) {
+  .introBlurb {
+    width: 85%;
+    font-size: 0.87em;
+  }
+}
+
+@media (max-width: 960px) {
   .introBlurb {
     width: 100%;
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 906px) {
+  .introBlurb {
+    width: 90%;
+    font-size: 0.8em;
+    margin-bottom: 10.5em;
   }
 }
 
 @media (max-width: 768px) {
   .introBlurb {
-    width: 57vw;
+    width: 45vw;
+    margin-bottom: 1em;
   }
 }
 
 @media (max-width: 650px) {
   .introBlurb {
     width: 69vw;
+    font-size: 1em;
   }
 }
 
@@ -31,8 +50,32 @@
   .introBlurb {
     font-size: 1em;
     width: 80vw;
+    margin-bottom: 0.6em;
+    margin-top: 0.4em;
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 420px) {
+  .introBlurb {
+    font-size: 1em;
+    width: 80vw;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
-    line-height: 1.5em;
+    line-height: 1.6em;
+  }
+}
+
+@media (max-width: 390px) {
+  .introBlurb {
+    font-size: 0.9em;
+    margin-bottom: 0.8em;
+    margin-top: 0.7em;
+  }
+}
+
+@media (max-width: 370px) {
+  .introBlurb {
+    font-size: 0.82em;
   }
 }

@@ -12,6 +12,7 @@
 }
 
 .left {
+  background-color: rgb(16, 16, 20);
   background-image: url('../assets/sunset4.jpg');
   width: 35vw;
   height: 100vh;
@@ -28,16 +29,63 @@
   margin-left: 35vw;
 }
 
+h3 {
+  color: rgb(24, 23, 23);
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
 .main-content {
   text-align: center;
-  padding: 2em;
+  padding: 4em;
   color: rgb(46, 46, 46);
 }
 
 .profile-pic {
   border-radius: 100%;
-  width: 90px;
+  width: 120px;
   margin: 0px;
+}
+
+@media (max-width: 2000px) {
+  .main-content {
+    padding: 2em;
+    padding-top: 2.4em;
+  }
+  .main-content h1 {
+    font-size: 1.9em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .main-content h3 {
+    font-size: 1.4em;
+    margin-bottom: 0.4em;
+  }
+  .profile-pic {
+    width: 130px;
+  }
+}
+
+@media (max-width: 888px) {
+  .main-content {
+    padding: 1.6em;
+    padding-top: 1.9em;
+  }
+  .main-content h1 {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    font-size: 1.7em;
+  }
+  .main-content h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+  }
+  .profile-pic {
+    width: 120px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -51,41 +99,83 @@
   }
   .left {
     position: static;
-    max-height: 400px;
+    max-height: 500px;
     background-image: url('../assets/sunset2.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(2, 3, 2);
   }
   .main-content {
     padding: 1.4em;
   }
   .main-content h1 {
-    font-size: 1.8em;
+    font-size: 2em;
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
   }
   .main-content h3 {
     font-size: 1.4em;
+    margin-bottom: 0.25em;
   }
   .profile-pic {
-    width: 75px;
+    width: 110px;
   }
 }
 
 @media (max-width: 528px) {
   .left {
-    position: static;
     background-image: url('../assets/sunset3.jpg');
+    background-color: rgb(16, 16, 20);
   }
   .right {
     background-color: rgb(16, 16, 20);
   }
   .main-content {
-    padding: 1.2em;
+    padding: 2em;
+    padding-top: 1.5em;
   }
   .main-content h1 {
     font-size: 2em;
+    margin-top: 0.35em;
+    margin-bottom: 0.4em;
   }
   .main-content h3 {
     font-size: 1.4em;
+    margin-bottom: 0;
   }
   .profile-pic {
-    width: 75px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 420px) {
+  .left {
+    position: static;
+    background-image: url('../assets/sunset3.jpg');
+  }
+  .main-content {
+    padding: 2.1em;
+  }
+  .main-content h1 {
+    font-size: 1.8em;
+    margin-top: 0.4em;
+  }
+  .main-content h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 390px) {
+  .left {
+    position: static;
+    background-image: url('../assets/sunset3.jpg');
+  }
+  .main-content {
+    padding: 2.2em;
+  }
+  .main-content h1 {
+    font-size: 1.4em;
+  }
+  .main-content h3 {
+    font-size: 1em;
   }
 }

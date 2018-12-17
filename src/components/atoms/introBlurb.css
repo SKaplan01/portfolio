@@ -1,0 +1,42 @@
+.introBlurb {
+  width: 98%;
+  margin: 0 auto;
+  font-size: 0.8em;
+  background-color: rgba(29, 27, 27, 0.377);
+  border-radius: 0.6em;
+  color: rgba(228, 228, 228, 0.829);
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.introBlurb p {
+  margin: 0;
+}
+
+@media (max-width: 970px) {
+  .introBlurb {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .introBlurb {
+    width: 57vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .introBlurb {
+    width: 69vw;
+  }
+}
+
+@media (max-width: 528px) {
+  .introBlurb {
+    font-size: 0.9em;
+    width: 52vw;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    line-height: 1.5em;
+  }
+}

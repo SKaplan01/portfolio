@@ -54,22 +54,33 @@
     max-height: 400px;
     background-image: url('../assets/sunset2.jpg');
   }
+  .main-content {
+    padding: 1.4em;
+  }
+  .main-content h1 {
+    font-size: 1.8em;
+  }
+  .main-content h3 {
+    font-size: 1.4em;
+  }
+  .profile-pic {
+    width: 75px;
+  }
 }
 
 @media (max-width: 528px) {
   .left {
     position: static;
-    max-height: 400px;
     background-image: url('../assets/sunset3.jpg');
   }
   .right {
     background-color: rgb(16, 16, 20);
   }
   .main-content {
-    padding: 1.3em;
+    padding: 1.2em;
   }
   .main-content h1 {
-    font-size: 2.3em;
+    font-size: 2em;
   }
   .main-content h3 {
     font-size: 1.4em;

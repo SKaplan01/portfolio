@@ -7,12 +7,14 @@ import Header from './header'
 import './layout.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faIgloo } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faIgloo)
-library.add(faFileDownload)
+library.add(faFileDownload, faEnvelope)
+library.add(fab)
 
 const Layout = ({ children }) => (
   <StaticQuery

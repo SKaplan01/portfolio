@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import headshot2 from '../../assets/headshot2.jpg'
+import ContactButtons from './ContactButtons'
 import Button from '@material-ui/core/Button'
 import Icon from '@material-ui/core/Icon'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -19,6 +20,7 @@ class Intro extends Component {
             Resume
           </span>
         </Button>
+        <ContactButtons />
       </React.Fragment>
     )
   }

@@ -1,0 +1,13 @@
+#portfolioContainer h1 {
+  color: rgb(206, 206, 206);
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+#portfolioContainer {
+  margin: 0 auto;
+  padding: 2.5em;
+  max-width: 800px;
+}

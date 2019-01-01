@@ -1,0 +1,21 @@
+#cardButtons a {
+  color: #4157c5;
+  text-decoration: 'none';
+  text-shadow: none;
+  background-image: none;
+  margin: 0.3em;
+  font-size: 1.5em;
+}
+
+#cardButtons a:hover {
+  color: #27357a;
+}
+
+#iconContainer {
+  margin-right: 3.8em;
+}
+
+#cardButtons {
+  padding: 9px;
+  padding-top: 0px;
+}

@@ -12,8 +12,10 @@ import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faFileDownload, faEnvelope)
+library.add(faFileDownload, faEnvelope, faBars, faExternalLinkAlt)
 library.add(fab)
 
 const Layout = ({ children }) => (

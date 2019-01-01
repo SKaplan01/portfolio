@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Intro from './atoms/Intro'
 import './container.css'
+import PortfolioContainer from './molecules/PortfolioContainer'
 
 class Container extends Component {
   render() {
@@ -14,8 +15,7 @@ class Container extends Component {
           </div>
         </div>
         <div className="right">
-          <h1>I am the right container</h1>
-          <p>I say some stuff too. It's cool.</p>
+          <PortfolioContainer />
         </div>
       </div>
     )

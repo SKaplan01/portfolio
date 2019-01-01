@@ -13,8 +13,9 @@
 
 .left {
   background-color: rgb(16, 16, 20);
-  background-image: url('../assets/sunset4.jpg');
+  background-image: url('../assets/sunset5.jpg');
   width: 35vw;
+  max-width: 320px;
   height: 100vh;
   position: fixed;
   padding: 0;
@@ -24,9 +25,10 @@
 
 .right {
   background-color: rgb(8, 8, 9);
-  width: 65vw;
+  /* width: 65vw; */
+  width: 100%;
   height: 100vh;
-  margin-left: 35vw;
+  margin-left: 320px;
 }
 
 h3 {
@@ -95,12 +97,13 @@ h1 {
   .left,
   .right {
     width: 100vw;
+    max-width: 100vw;
     margin: 0;
   }
   .left {
     position: static;
     max-height: 500px;
-    background-image: url('../assets/sunset2.jpg');
+    background-image: url('../assets/sunset6.jpg');
     background-repeat: no-repeat;
     background-color: rgb(2, 3, 2);
   }

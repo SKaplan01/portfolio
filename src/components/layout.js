@@ -14,8 +14,19 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faFileDownload, faEnvelope, faBars, faExternalLinkAlt)
+library.add(
+  faFileDownload,
+  faEnvelope,
+  faBars,
+  faExternalLinkAlt,
+  faArrowCircleDown,
+  faAngleDown,
+  faAngleDoubleDown
+)
 library.add(fab)
 
 const Layout = ({ children }) => (

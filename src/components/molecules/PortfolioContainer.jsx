@@ -8,7 +8,7 @@ class PortfolioContainer extends Component {
   render() {
     return (
       <div id="portfolioContainer">
-        <h1>Recent Work</h1>
+        {/* <h3>Recent Work</h3> */}
         <div id="cardContainer">
           <PortfolioCard
             imgSrc={lsVoteGif}

@@ -1,16 +1,21 @@
-#portfolioContainer h1 {
-  color: rgb(206, 206, 206);
-  font-weight: 200;
-  letter-spacing: 0.1em;
-  margin-bottom: 1.5em;
-  margin-top: 1em;
-}
-
 #portfolioContainer {
   margin: 0 auto;
   padding: 2.5em;
-  max-width: 800px;
-  height: 100%;
+  padding-top: 0.3em;
+}
+
+#portfolioContainer h3 {
+  color: rgb(206, 206, 206);
+  color: rgb(67, 89, 185);
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  margin-bottom: 0em;
+  margin-top: 0px;
+  position: relative;
+  top: -30px;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 #cardContainer {
@@ -18,6 +23,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
-  height: 100%;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  #cardContainer {
+    justify-content: center;
+  }
 }

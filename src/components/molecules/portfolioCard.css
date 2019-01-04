@@ -34,3 +34,9 @@ img {
   margin-top: 0.2em;
   margin-bottom: 0em;
 }
+
+@media (max-width: 576px) {
+  #card {
+    width: 100%;
+  }
+}

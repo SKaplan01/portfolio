@@ -39,6 +39,10 @@ class Intro extends Component {
         {/* <div>
           <img src={headshot3} alt="" className="profile-pic" />
         </div> */}
+        {/* <FontAwesomeIcon
+          icon="angle-double-down"
+          style={{ color: '#2d3a79', fontSize: '2em' }}
+        /> */}
       </React.Fragment>
     )
   }

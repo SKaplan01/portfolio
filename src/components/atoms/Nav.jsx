@@ -1,27 +1,32 @@
 import React, { Component } from 'react'
 import './nav.css'
 import MenuListComposition from './MenuListComposition'
+import Hamburger from './Hamburger'
 import { Link } from 'gatsby'
-// import NavLink from './NavLink'
 
 class Nav extends Component {
   render() {
     return (
-      <div id="navContainer">
-        <div id="navContainer-full">
+      <div id="navContainer-full">
+        <div id="navContainer-left">
           <Link to="/">
             <span>Home</span>
           </Link>
+        </div>
+        <div id="navContainer-right">
           <Link to="/page-2">
             <span>About</span>
           </Link>
+
           <Link to="/page-2">
             <span>Contact</span>
           </Link>
         </div>
-        <div id="navContainer-min">
-          <MenuListComposition />
-        </div>
+        {/* <hr /> */}
+        {/* <div id="navContainer-min"> */}
+        {/* <Hamburger /> */}
+        {/* <MenuListComposition /> */}
+        {/* </div> */}
       </div>
     )
   }

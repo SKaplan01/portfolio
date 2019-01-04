@@ -19,7 +19,7 @@ class PortfolioCard extends Component {
     } = this.props
     return (
       <div id="cardOverlay">
-        <div id="cardContainer">
+        <div id="card">
           <h4>{title}</h4>
           <i>{subtitle}</i>
           <img src={imgSrc} alt={imgAlt} />

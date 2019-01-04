@@ -1,13 +1,30 @@
 #contactButtons {
-  margin-top: 2.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
   width: 100%;
 }
 #contactButtons span {
-  margin: 0.6em;
-  font-size: 1.5em;
+  padding: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin: 10px;
+  font-size: 1.3em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #2d3a79;
 }
 
-@media (min-width: 769px) {
+#contactButtons span:hover {
+  background-color: #3546b4;
+}
+
+#contactButtons a {
+  text-shadow: none;
+  background-image: none;
+}
+
+/* @media (min-width: 769px) {
   #contactButtons {
     position: relative;
     top: -10.5em;
@@ -24,4 +41,4 @@
   #contactButtons {
     top: -10em;
   }
-}
+} */

@@ -10,4 +10,14 @@
   margin: 0 auto;
   padding: 2.5em;
   max-width: 800px;
+  height: 100%;
+}
+
+#cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 100%;
 }

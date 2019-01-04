@@ -1,16 +1,35 @@
 .introBlurb {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
-  font-size: 0.9em;
+  font-size: 1em;
   padding: 0.5em;
-  margin-bottom: 9em;
+  margin-bottom: 0em;
 }
 
 .introBlurb p {
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  color: rgb(153, 152, 152);
+  color: rgba(255, 171, 115, 0.781);
+  color: rgba(219, 217, 217, 0.973);
+  color: #938191;
+  color: #c5b2c3;
+  color: #283472;
+
+  color: rgba(255, 255, 255, 0.692);
+  color: rgb(24, 23, 23);
+  color: #161c3d;
+  color: rgb(206, 206, 206);
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 320px) {
+  .introBlurb {
+    font-size: 0.82em;
+  }
+}
+
+/* @media (max-width: 1090px) {
   .introBlurb {
     width: 85%;
     font-size: 0.87em;
@@ -72,10 +91,4 @@
     margin-bottom: 0.8em;
     margin-top: 0.7em;
   }
-}
-
-@media (max-width: 370px) {
-  .introBlurb {
-    font-size: 0.82em;
-  }
-}
+} */

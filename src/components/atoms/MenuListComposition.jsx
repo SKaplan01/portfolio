@@ -40,19 +40,19 @@ class MenuListComposition extends React.Component {
   render() {
     const { classes } = this.props
     const { open } = this.state
-
     return (
       <div className={classes.root}>
-        <div>
+        <div style={{ margin: '0px', textAlign: 'right' }}>
           <Button
             buttonRef={node => {
               this.anchorEl = node
             }}
+            style={{ paddingTop: '0px', marginTop: '0px' }}
             aria-owns={open ? 'menu-list-grow' : undefined}
             aria-haspopup="true"
             onClick={this.handleToggle}
           >
-            <FontAwesomeIcon icon="bars" color="rgb(206, 206, 206)" />
+            <FontAwesomeIcon icon="bars" color="rgb(206, 206, 206)" size="2x" />
           </Button>
           <Popper open={open} anchorEl={this.anchorEl} transition disablePortal>
             {({ TransitionProps, placement }) => (

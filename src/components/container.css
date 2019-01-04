@@ -4,7 +4,7 @@
 }
 
 .overlay {
-  background-color: rgba(20, 20, 20, 0.363);
+  background-color: rgba(20, 20, 20, 0.568);
   width: 100%;
   height: 100%;
   margin: 0;
@@ -27,12 +27,26 @@
   background-color: rgb(8, 8, 9);
   /* width: 65vw; */
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-left: 320px;
 }
 
-h3 {
+h1 {
+  /* color: rgb(153, 152, 152);
+  color: rgba(255, 171, 115, 0.781);
+  color: rgb(226, 226, 226); */
   color: rgb(24, 23, 23);
+  color: rgb(206, 206, 206);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h3 {
+  /* color: rgba(245, 168, 117, 0.753);
+  color: rgb(153, 152, 152); */
+  color: rgb(24, 23, 23);
+  color: rgb(206, 206, 206);
+  letter-spacing: 0.1em;
 }
 
 h1 {
@@ -150,35 +164,89 @@ h1 {
   }
 }
 
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
   .left {
     position: static;
-    background-image: url('../assets/sunset3.jpg');
+    background-image: url('../assets/sunset7.jpg');
   }
   .main-content {
     padding: 2.1em;
   }
   .main-content h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-top: 0.4em;
   }
   .main-content h3 {
     font-size: 1.2em;
   }
+} */
+
+@media (max-width: 420px) {
+  .left {
+    position: static;
+    background-image: url('../assets/sunset7.jpg');
+    height: 450px;
+  }
+  .main-content {
+    padding: 1em;
+    padding-top: 4em;
+  }
+  .main-content h1 {
+    font-size: 1.8em;
+  }
+  .main-content h3 {
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+  }
+  .profile-pic {
+    width: 110px;
+    margin-bottom: 0.3em;
+  }
 }
 
 @media (max-width: 390px) {
-  .left {
-    position: static;
-    background-image: url('../assets/sunset3.jpg');
-  }
-  .main-content {
-    padding: 2.2em;
-  }
   .main-content h1 {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
   .main-content h3 {
-    font-size: 1em;
+    font-size: 1.1em;
+    margin-top: 0.8em;
+    margin-bottom: 1.6em;
   }
 }
+
+/* //VERSION with text over black */
+/* @media (max-width: 420px) {
+  .left {
+    position: static;
+    background-image: url('../assets/sunset7.jpg');
+  }
+  .main-content {
+    padding: 1em;
+    padding-top: 2em;
+  }
+  .main-content h1 {
+    font-size: 2em;
+  }
+  .main-content h3 {
+    font-size: 1.3em;
+    margin-top: 0.7em;
+    margin-bottom: 1.3em;
+  }
+  .profile-pic {
+    width: 120px;
+    margin-bottom: 0.3em;
+  }
+}
+
+@media (max-width: 390px) {
+  .main-content h1 {
+    font-size: 1.6em;
+  }
+  .main-content h3 {
+    font-size: 1.1em;
+    margin-top: 0.8em;
+    margin-bottom: 1.6em;
+  }
+} */

@@ -1,7 +1,9 @@
-#cardContainer {
+#card {
   width: 16em;
+  height: 24em;
   background-color: #e6e8e7;
   border-radius: 0.5em;
+  margin-bottom: 2em;
 }
 
 h4,

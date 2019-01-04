@@ -11,11 +11,10 @@ class Intro extends Component {
   render() {
     return (
       <React.Fragment>
-        <img src={headshot3} alt="" className="profile-pic" />
         <h1>Sarah Kaplan</h1>
         <h3>Software Engineer</h3>
-        <IntroBlurb />
-        <a
+
+        {/* <a
           href={sarahKaplanResume}
           target="_blank"
           style={{ textDecoration: 'none' }}
@@ -27,13 +26,19 @@ class Intro extends Component {
                 paddingLeft: '.7em',
                 letterSpacing: '.15em',
                 color: 'rgb(206, 206, 206)',
+                fontSize: '0.85em',
               }}
             >
               Resume
             </span>
           </Button>
-        </a>
+        </a> */}
         <ContactButtons />
+
+        <IntroBlurb />
+        {/* <div>
+          <img src={headshot3} alt="" className="profile-pic" />
+        </div> */}
       </React.Fragment>
     )
   }

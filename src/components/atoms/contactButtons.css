@@ -1,5 +1,5 @@
 #contactButtons {
-  margin-top: 1.6em;
+  margin-top: 1.2em;
   margin-bottom: 0em;
   width: 100%;
 }
@@ -24,21 +24,8 @@
   background-image: none;
 }
 
-/* @media (min-width: 769px) {
+@media (max-width: 480px) {
   #contactButtons {
-    position: relative;
-    top: -10.5em;
+    margin-top: 1.6em;
   }
 }
-
-@media (min-width: 804px) {
-  #contactButtons {
-    top: -9em;
-  }
-}
-
-@media (min-width: 898px) {
-  #contactButtons {
-    top: -10em;
-  }
-} */

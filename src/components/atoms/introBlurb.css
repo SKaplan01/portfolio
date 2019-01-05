@@ -5,7 +5,7 @@
 #mobileBlurb a {
   color: #263168;
   /* color: #344492; */
-  /* font-weight: 600; */
+  font-weight: 600;
   font-size: 1em;
   -webkit-transition: font-size 200ms;
   transition: font-size 200ms;
@@ -13,8 +13,8 @@
 
 #mobileBlurb a:hover {
   font-weight: 900;
-  color: #37489b;
-  font-size: 1.1em;
+  color: #31408a;
+  font-size: 1.05em;
 }
 
 .introBlurb {
@@ -28,7 +28,7 @@
 
 .introBlurb p {
   margin: 0 auto;
-  padding-top: 0.8em;
+  padding-top: 0.4em;
   padding-bottom: 0em;
   color: rgb(16, 16, 20);
   color: #151b3a;
@@ -45,7 +45,7 @@
   margin-left: 0.3em;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
   #mobileBlurb {
     display: block;
     font-size: 1.2em;
@@ -53,6 +53,19 @@
 
   #desktopBlurb {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .introBlurb p {
+    padding-top: 0.8em;
+  }
+}
+
+@media (max-width: 400px) {
+  #mobileBlurb a {
+    color: #263168;
+    font-weight: 400;
   }
 }
 

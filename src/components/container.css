@@ -123,80 +123,47 @@ h3 {
   }
   .left {
     position: static;
-    max-height: 500px;
-    background-image: url('../assets/sunset6.jpg');
+    max-height: 427px;
+    background-image: url('../assets/sunset12.jpg');
     background-repeat: no-repeat;
     background-color: rgb(2, 3, 2);
   }
   .main-content {
     padding: 1.4em;
+    padding-top: 4.5em;
   }
   .main-content h1 {
     font-size: 2em;
     margin-top: 0.35em;
-    margin-bottom: 0.35em;
+    margin-bottom: 0.5em;
   }
   .main-content h3 {
     font-size: 1.4em;
-    margin-bottom: 0.25em;
+    margin-bottom: 1em;
   }
   .profile-pic {
     width: 110px;
   }
 }
 
-@media (max-width: 528px) {
+/* ///THIS IS HOW FAR UP I AM */
+/* //////////// */
+
+@media (max-width: 612px) {
   .left {
-    background-image: url('../assets/sunset3.jpg');
-    background-color: rgb(23, 23, 29);
+    position: static;
+    background-image: url('../assets/sunset11.jpg');
+    height: 392px;
   }
   .right {
     background-color: rgb(10, 10, 15);
   }
-  .main-content {
-    padding: 2em;
-    padding-top: 1.5em;
-  }
-  .main-content h1 {
-    font-size: 2em;
-    margin-top: 0.35em;
-    margin-bottom: 0.4em;
-  }
-  .main-content h3 {
-    font-size: 1.4em;
-    margin-bottom: 0;
-  }
-  .profile-pic {
-    width: 120px;
-  }
-}
-
-/* @media (max-width: 420px) {
-  .left {
-    position: static;
-    background-image: url('../assets/sunset7.jpg');
-  }
-  .main-content {
-    padding: 2.1em;
-  }
-  .main-content h1 {
-    font-size: 2em;
-    margin-top: 0.4em;
-  }
-  .main-content h3 {
-    font-size: 1.2em;
-  }
-} */
-
-@media (max-width: 420px) {
-  .left {
-    position: static;
-    background-image: url('../assets/sunset9.jpg');
-    height: 335px;
+  .overlay {
+    background-color: rgba(20, 20, 20, 0.514);
   }
   .main-content {
     padding: 1em;
-    padding-top: 4.6em;
+    padding-top: 4.5em;
   }
   .main-content h1 {
     font-size: 1.8em;
@@ -204,7 +171,7 @@ h3 {
   .main-content h3 {
     font-size: 1.3em;
     margin-top: 0.7em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
   }
   .profile-pic {
     width: 110px;
@@ -212,38 +179,30 @@ h3 {
   }
 }
 
-@media (max-width: 390px) {
-  .main-content h1 {
-    font-size: 1.6em;
-  }
-  .main-content h3 {
-    font-size: 1.1em;
-    margin-top: 0.8em;
-    margin-bottom: 1.6em;
-  }
-}
-
-/* //VERSION with text over black */
-/* @media (max-width: 420px) {
+@media (max-width: 505px) {
   .left {
-    position: static;
-    background-image: url('../assets/sunset7.jpg');
+    background-image: url('../assets/sunsetmobile.jpg');
+    height: 363px;
   }
   .main-content {
-    padding: 1em;
-    padding-top: 2em;
+    padding-top: 4em;
   }
-  .main-content h1 {
-    font-size: 2em;
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding-top: 4.6em;
   }
-  .main-content h3 {
-    font-size: 1.3em;
-    margin-top: 0.7em;
-    margin-bottom: 1.3em;
+}
+
+@media (max-width: 400px) {
+  .left {
+    background-image: url('../assets/sunset9.jpg');
+    height: 343px;
   }
-  .profile-pic {
-    width: 120px;
-    margin-bottom: 0.3em;
+
+  .overlay {
+    background-color: rgba(20, 20, 20, 0.493);
   }
 }
 
@@ -256,4 +215,4 @@ h3 {
     margin-top: 0.8em;
     margin-bottom: 1.6em;
   }
-} */
+}

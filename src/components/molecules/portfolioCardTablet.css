@@ -1,10 +1,11 @@
-#cardMobile {
+#cardTablet {
   padding: 1em;
+  padding-top: 2em;
 }
 
-#topRow,
-#bottomRow,
-#thirdRow {
+#topRowTablet,
+#bottomRowTablet,
+#thirdRowTablet {
   display: flex;
   color: rgb(206, 206, 206);
   /* border: 15px solid #364174; */
@@ -15,44 +16,44 @@
   padding-right: 0.25em;
 }
 
-#topRow {
+#topRowTablet {
   margin-bottom: 0.8em;
   padding-right: 0.85em;
   padding-top: 1.2em;
 }
 
-#bottomRow {
+#bottomRowTablet {
   margin-bottom: 0.5em;
 }
 
-#thirdRight {
+#thirdRightTablet {
   padding-right: 0.2em;
 }
 
-#cardLeft {
+#cardLeftTablet {
   width: 175%;
 }
 
-#thirdRow i {
+#thirdRowTablet i {
   margin: 0px;
   padding: 0px;
   font-size: 0.9em;
 }
 
-#cardRight p {
+#cardRightTablet p {
   padding-top: 0px;
   padding-right: 0px;
   margin-left: 1em;
 }
 
-#cardMobile h4 {
+#cardTablet h4 {
   color: #364174;
   color: #475697;
   font-size: 2em;
   padding: 0em;
 }
 
-#topRight button {
+#topRightTablet button {
   margin-bottom: 0em;
   padding: 0px;
   padding-left: 7px;
@@ -64,7 +65,7 @@
 
 /* TODO: make a sibling component like I did for the icons 
 so that the hover outline can be outside the button */
-#topRight button:hover {
+#topRightTablet button:hover {
   /* box-shadow: 0 0 3px 2px #5364af;
   box-shadow: 0 0 0 2px rgb(141, 189, 211); */
   border: 2px dotted rgb(206, 206, 206);

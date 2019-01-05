@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import CardButtonsMobile from '../atoms/CardButtonsMobile'
-import './portfolioCardMobile.css'
+import './portfolioCardTablet.css'
 
-class PortfolioCardMobile extends Component {
+class PortfolioCardTablet extends Component {
   constructor(props) {
     super(props)
   }
@@ -19,12 +19,12 @@ class PortfolioCardMobile extends Component {
       theme,
     } = this.props
     return (
-      <div id="cardMobile">
-        <div id="topRow" style={{ borderTop: `7px dotted ${theme}` }}>
-          <div id="topLeft">
+      <div id="cardTablet">
+        <div id="topRowTablet" style={{ borderTop: `7px dotted ${theme}` }}>
+          <div id="topLeftTablet">
             <h4 style={{ color: theme }}>{title}</h4>
           </div>
-          <div id="topRight">
+          <div id="topRightTablet">
             <button
               style={{
                 backgroundColor: theme,
@@ -43,19 +43,19 @@ class PortfolioCardMobile extends Component {
             </button>
           </div>
         </div>
-        <div id="bottomRow">
-          <div id="cardLeft">
+        <div id="bottomRowTablet">
+          <div id="cardLeftTablet">
             <img src={imgSrc} alt={imgAlt} />
           </div>
-          <div id="cardRight">
+          <div id="cardRightTablet">
             <p>{caption}</p>
           </div>
         </div>
-        <div id="thirdRow">
+        <div id="thirdRowTablet">
           <div id="thirdLeft">
             <i>{subtitle}</i>
           </div>
-          <div id="thirdRight">
+          <div id="thirdRightTablet">
             <CardButtonsMobile
               siteUrl={siteUrl}
               githubUrl={githubUrl}
@@ -70,4 +70,4 @@ class PortfolioCardMobile extends Component {
   }
 }
 
-export default PortfolioCardMobile
+export default PortfolioCardTablet

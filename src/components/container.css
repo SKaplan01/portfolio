@@ -3,6 +3,10 @@
   flex-direction: row;
 }
 
+.mobile {
+  display: none;
+}
+
 .overlay {
   background-color: rgba(20, 20, 20, 0.493);
   width: 100%;
@@ -105,6 +109,12 @@ h3 {
   .container {
     flex-direction: column;
   }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
   .left,
   .right {
     width: 100vw;
@@ -186,7 +196,7 @@ h3 {
   }
   .main-content {
     padding: 1em;
-    padding-top: 3.9em;
+    padding-top: 4.6em;
   }
   .main-content h1 {
     font-size: 1.8em;

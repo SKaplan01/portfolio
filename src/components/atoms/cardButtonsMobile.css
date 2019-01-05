@@ -3,9 +3,34 @@
   text-shadow: none;
   background-image: none;
   font-size: 1.5em;
-  margin-left: 0.4em;
+  margin-left: 0.6em;
 }
 
-#cardButtonsMobile a:hover {
-  color: #27357a;
+.highlight,
+.highlight-box {
+  z-index: 100;
+  background-color: rgba(255, 255, 0, 0);
+  position: absolute;
+  width: 1.5em;
+}
+
+.highlight {
+  height: 1.5em;
+  left: -0.25em;
+  top: -0.22em;
+  border-radius: 50%;
+}
+
+.highlight:hover {
+  border: 3px dotted rgb(248, 248, 248);
+}
+
+.highlight-box {
+  height: 1em;
+  left: -0.28em;
+  top: 0.1em;
+}
+
+.highlight-box:hover {
+  border-left: 3px dotted rgb(248, 248, 248);
 }

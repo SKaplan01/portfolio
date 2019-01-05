@@ -11,16 +11,23 @@ class CardButtonsMobile extends Component {
     let { githubUrl, siteUrl } = this.props
     return (
       <div id="cardButtonsMobile">
-        <span id="iconContainerMobile">
-          <a href={siteUrl} target="_blank" style={{ color: this.props.color }}>
+        <span className="iconContainerMobile">
+          <a
+            href={siteUrl}
+            target="_blank"
+            style={{ position: 'relative', color: this.props.color }}
+          >
+            <span className="highlight-box" />
             <FontAwesomeIcon icon="external-link-alt" />
           </a>
-
+        </span>
+        <span className="iconContainerMobile">
           <a
             href={githubUrl}
             target="_blank"
-            style={{ color: this.props.color }}
+            style={{ position: 'relative', color: this.props.color }}
           >
+            <span className="highlight" />
             <FontAwesomeIcon icon={['fab', 'github']} />
           </a>
         </span>

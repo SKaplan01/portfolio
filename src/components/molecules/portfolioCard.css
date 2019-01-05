@@ -6,6 +6,11 @@
   margin-bottom: 2em;
 }
 
+#cardOverlay {
+  display: flex;
+  align-content: center;
+}
+
 h4,
 i,
 p {
@@ -38,5 +43,32 @@ img {
 @media (max-width: 576px) {
   #card {
     width: 100%;
+    background-color: #364174;
+    background-color: #99165e;
+    background-color: rgb(10, 10, 15);
+    background-color: rgb(206, 206, 206);
+    border: 2px solid #a3075d;
+    border: 15px solid #364174;
+    margin: 0.8em;
+    /* color: rgb(206, 206, 206); */
+    /* border-radius: 10px; */
   }
+
+  #card h4 {
+    color: #d82788;
+    color: rgb(206, 206, 206);
+    color: #475697;
+  }
+
+  /* hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #293258;
+    background-color: #293258;
+  } */
 }

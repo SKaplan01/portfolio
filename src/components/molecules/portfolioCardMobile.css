@@ -1,0 +1,75 @@
+#cardMobile {
+  padding: 1em;
+}
+
+#topRow,
+#bottomRow,
+#thirdRow {
+  display: flex;
+  color: rgb(206, 206, 206);
+  /* border: 15px solid #364174; */
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+#topRow {
+  margin-bottom: 0.5em;
+  padding-right: 0.85em;
+  padding-top: 1em;
+  border-top: 7px dotted #364174;
+  border-top: 7px dotted #364174;
+}
+
+#thirdRight {
+  padding-right: 0.85em;
+}
+
+#cardLeft {
+  width: 175%;
+}
+
+#thirdRow i {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.9em;
+}
+
+#cardRight p {
+  padding-top: 0px;
+  padding-right: 0px;
+  margin-left: 1em;
+}
+
+#cardMobile h4 {
+  color: #364174;
+  color: #475697;
+  font-size: 2em;
+  padding: 0em;
+}
+
+/* #topLeft {
+  background-color: white;
+}
+
+#topRight {
+  background-color: pink;
+}
+
+#cardLeft {
+  background-color: blue;
+}
+
+#cardRight {
+  background-color: green;
+}
+
+#thirdLeft {
+  background-color: yellow;
+}
+
+#thirdRight {
+  background-color: grey;
+} */

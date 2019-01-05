@@ -1,10 +1,10 @@
 #portfolioContainer {
   margin: 0 auto;
-  padding: 2.5em;
-  padding-top: 0.3em;
+  padding: 3em;
+  padding-top: 1.8em;
 }
 
-#portfolioContainer h3 {
+/* #portfolioContainer h3 {
   color: rgb(206, 206, 206);
   color: rgb(67, 89, 185);
   font-weight: 200;
@@ -16,7 +16,7 @@
   text-align: center;
   font-size: 1.5em;
   text-transform: uppercase;
-}
+} */
 
 #cardContainer {
   display: flex;
@@ -29,5 +29,11 @@
 @media (max-width: 576px) {
   #cardContainer {
     justify-content: center;
+  }
+
+  #portfolioContainer {
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 1.2em;
   }
 }

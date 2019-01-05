@@ -5,7 +5,10 @@ class IntroBlurb extends Component {
   render() {
     return (
       <div className="introBlurb">
-        <p>Check out my recent work with Gatsby.js, React, Node and Express.</p>
+        <p>
+          Check out my <a> recent work</a> <br />
+          with Gatsby.js and React.
+        </p>
       </div>
     )
   }

@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import PortfolioCard from './PortfolioCard'
+import PortfolioCardMobile from './PortfolioCardMobile'
 import lsVoteGif from '../../assets/lsVoteGif.gif'
 import jobly from '../../assets/jobly.png'
+import joblyMobile from '../../assets/joblyMobile.png'
 import './portfolioContainer.css'
 
 class PortfolioContainer extends Component {
@@ -10,14 +12,14 @@ class PortfolioContainer extends Component {
       <div id="portfolioContainer">
         {/* <h3>Recent Work</h3> */}
         <div id="cardContainer">
-          <PortfolioCard
-            imgSrc={lsVoteGif}
-            imgAlt="Product page for lipslut.com"
-            title="Faneron"
-            subtitle="React, Gatsby.js, GraphQL, JAMstack"
-            caption="Lipslut.com is an e-commerce site selling makeup to benefit progressive causes."
-            githubUrl="https://github.com/SKaplan01/lipslut2.0"
-            siteUrl="https://www.lipslut.com/"
+          <PortfolioCardMobile
+            imgSrc={joblyMobile}
+            imgAlt="Jobly site"
+            title="Jobly"
+            subtitle="React, Node/Express"
+            caption="Jobly is an app where users can view job postings and apply for open positions"
+            githubUrl="https://github.com/SKaplan01/react_jobly"
+            siteUrl="https://jobilly.herokuapp.com/"
           />
           <PortfolioCard
             imgSrc={jobly}
@@ -28,6 +30,16 @@ class PortfolioContainer extends Component {
             githubUrl="https://github.com/SKaplan01/react_jobly"
             siteUrl="https://jobilly.herokuapp.com/"
           />
+          <PortfolioCard
+            imgSrc={lsVoteGif}
+            imgAlt="Product page for lipslut.com"
+            title="Faneron"
+            subtitle="React, Gatsby.js, GraphQL, JAMstack"
+            caption="Lipslut.com is an e-commerce site selling makeup to benefit progressive causes."
+            githubUrl="https://github.com/SKaplan01/lipslut2.0"
+            siteUrl="https://www.lipslut.com/"
+          />
+
           <PortfolioCard
             imgSrc={lsVoteGif}
             imgAlt="Product page for lipslut.com"

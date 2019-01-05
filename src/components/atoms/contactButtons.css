@@ -1,6 +1,6 @@
 #contactButtons {
-  margin-top: 1.7em;
-  margin-bottom: 0.5em;
+  margin-top: 1.6em;
+  margin-bottom: 0em;
   width: 100%;
 }
 #contactButtons span {
@@ -12,7 +12,9 @@
   width: 3em;
   height: 3em;
   border-radius: 50%;
+  background-color: #151b3a;
   background-color: #2d3a79;
+  background-color: #2a366e;
 }
 
 #contactButtons span:hover {

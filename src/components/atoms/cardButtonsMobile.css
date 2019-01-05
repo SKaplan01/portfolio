@@ -1,0 +1,11 @@
+#cardButtonsMobile a {
+  text-decoration: 'none';
+  text-shadow: none;
+  background-image: none;
+  font-size: 1.5em;
+  margin-left: 0.4em;
+}
+
+#cardButtonsMobile a:hover {
+  color: #27357a;
+}

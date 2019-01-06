@@ -21,10 +21,14 @@
 #topRowTablet {
   margin-bottom: 0.8em;
   padding-right: 0.85em;
-  padding-top: 1.6em;
+  padding-top: 2.2em;
 }
 
 #bottomRowTablet {
+  margin-bottom: 0.5em;
+}
+
+#thirdRowTablet {
   margin-bottom: 0.5em;
 }
 
@@ -41,14 +45,16 @@
   padding: 0px;
   line-height: 2.5em;
   font-size: 0.95em;
+  letter-spacing: 0.07em;
 }
 
 #cardRightTablet p {
   padding-top: 0px;
   padding-right: 0px;
-  margin-left: 1em;
-  font-size: 0.95em;
+  margin-left: 1.4em;
+  font-size: 0.9em;
   line-height: 1.75em;
+  letter-spacing: 0.07em;
 }
 
 #cardTablet h4 {
@@ -94,9 +100,107 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1085px) {
+  #cardTablet p {
+    font-size: 0.83em;
+  }
+}
+
+@media (max-width: 1046px) {
+  #cardLeftTablet {
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 1026px) {
+  #cardTablet p {
+    font-size: 0.8em;
+  }
+  #cardLeftTablet {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 1008px) {
+  #cardTablet {
+    padding: 0.1em;
+    padding-top: 1.3em;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 985px) {
+  #cardTablet p {
+    font-size: 0.75em;
+  }
+  #cardLeftTablet {
+    min-width: 260px;
+  }
+  #cardLeftTablet,
+  #cardLeftTablet img {
+    width: 260px;
+  }
+}
+
+@media (max-width: 947px) {
+  #cardTablet {
+    padding: 0em;
+    padding-top: 1.3em;
+  }
+  #cardTablet p {
+    font-size: 0.75em;
+  }
+  #cardLeftTablet {
+    min-width: 250px;
+  }
+  #cardLeftTablet,
+  #cardLeftTablet img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 931px) {
+  #cardTablet p {
+    font-size: 0.75em;
+  }
+  #cardLeftTablet {
+    min-width: 240px;
+  }
+  #cardLeftTablet,
+  #cardLeftTablet img {
+    width: 240px;
+  }
+}
+
+/* HERE  below 917px mobile view kicks in*/
+
+@media (max-width: 777px) {
   #cardRightTablet p {
-    font-size: 0.9em;
+    font-size: 0.8em;
+  }
+  #cardLeftTablet,
+  #cardLeftTablet img {
+    min-width: 270px;
+  }
+  #thirdRowTablet {
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 685px) {
+  #cardRightTablet p {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 650px) {
+  #cardLeftTablet,
+  #cardLeftTablet img {
+    min-width: 230px;
+  }
+  #cardRightTablet p {
+    font-size: 0.7em;
   }
 }
 

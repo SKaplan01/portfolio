@@ -17,6 +17,7 @@ lincolnTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   },
   p: {
     baseFontSize: rhythm(1 / 2),
+    baseFontWeight: rhythm(1 / 2),
   },
 })
 const typography = new Typography(lincolnTheme)

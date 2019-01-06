@@ -36,14 +36,16 @@
 #thirdRow i {
   margin: 0px;
   padding: 0px;
-  font-size: 0.9em;
+  font-size: 0.85em;
+  letter-spacing: 0.07em;
 }
 
 #cardRight p {
   padding-top: 0px;
   padding-right: 0px;
   margin-left: 1em;
-  font-size: 1em;
+  font-size: 0.9em;
+  letter-spacing: 0.07em;
 }
 
 #cardMobile h4 {
@@ -83,12 +85,60 @@
   border-right: 3px dotted rgb(206, 206, 206);
 }
 
+@media (max-width: 917px) {
+  #thirdRow i {
+    font-size: 0.9em;
+    line-height: 2.7em;
+  }
+}
+
+@media (max-width: 430px) {
+  #cardRight p {
+    font-size: 0.8em;
+    line-height: 1.8em;
+  }
+}
+
+@media (max-width: 400px) {
+  #topLeft h4 {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 400px) {
+  #topLeft h4 {
+    font-size: 1.6em;
+  }
+
+  #thirdRow {
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 330px) {
+  #topLeft h4 {
+    font-size: 1.4em;
+  }
+  #topRight button {
+    font-size: 0.6em;
+  }
+
+  /* c hange to .6 */
+  #cardRight p {
+    font-size: 1.6em;
+  }
+
+  #thirdRow {
+    font-size: 0.75em;
+  }
+}
+
 /* ///////////// */
 
 /* for checking alignment of divs on card
 highlights each div in different background color */
-
-/* #topLeft {
+/* 
+#topLeft {
   background-color: white;
 }
 
@@ -111,10 +161,3 @@ highlights each div in different background color */
 #thirdRight {
   background-color: grey;
 } */
-
-@media (max-width: 430px) {
-  #cardRight p {
-    font-size: 0.8em;
-    line-height: 1.8em;
-  }
-}

@@ -14,6 +14,7 @@ class Container extends Component {
               <Intro />
             </div>
           </div>
+          <a id="workLink" />
         </div>
         <div className="right desktop">
           <PortfolioContainer />

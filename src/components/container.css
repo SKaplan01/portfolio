@@ -8,7 +8,7 @@
 }
 
 .overlay {
-  background-color: rgba(20, 20, 20, 0.603);
+  background-color: rgba(20, 20, 20, 0.705);
   width: 100%;
   height: 100%;
   margin: 0;
@@ -42,14 +42,15 @@ h1 {
   text-transform: uppercase;
   font-size: 2.2em;
   line-height: 1.5em;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 h3 {
   color: rgb(194, 193, 193);
-  letter-spacing: 0.11em;
-  font-size: 1.1em;
+  letter-spacing: 0.16em;
+  font-size: 0.85em;
   line-height: 2em;
+  text-transform: uppercase;
 }
 
 .main-content {
@@ -65,20 +66,17 @@ h3 {
   margin: 0px;
 } */
 
-/* ///THIS IS HOW FAR UP I AM */
-/* //////////// */
-
 @media (max-width: 888px) {
   .main-content {
     padding: 1.9em;
-    padding-top: 5em;
-    padding-left: 2.8em;
+    padding-top: 6em;
+    padding-left: 2.3em;
   }
   h1 {
     font-size: 2em;
   }
   h3 {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 }
 
@@ -95,6 +93,9 @@ h3 {
 }
 
 @media (max-width: 777px) {
+  .overlay {
+    background-color: rgba(20, 20, 20, 0.521);
+  }
   .container {
     flex-direction: column;
   }
@@ -126,6 +127,7 @@ h3 {
   .main-content h3 {
     color: rgb(206, 206, 206);
     font-size: 1.4em;
+    text-transform: none;
     margin-bottom: 1em;
     line-height: 1em;
   }
@@ -145,12 +147,6 @@ h3 {
   }
   .overlay {
     background-color: rgba(20, 20, 20, 0.514);
-  }
-  .mobile {
-    display: block;
-  }
-  .desktop {
-    display: none;
   }
   .main-content {
     padding: 1em;
@@ -183,6 +179,29 @@ h3 {
 @media (max-width: 480px) {
   .main-content {
     padding-top: 4.6em;
+  }
+}
+
+/* toggles mobile and desktop cards */
+
+@media (max-width: 917px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 777px) {
+  .left {
+    padding-top: 0.7em;
+  }
+}
+
+@media (max-width: 612px) {
+  .left {
+    padding-top: 0em;
   }
 }
 

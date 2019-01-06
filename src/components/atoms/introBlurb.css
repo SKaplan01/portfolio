@@ -28,26 +28,34 @@
 .introBlurb a {
   text-shadow: none;
   background-image: none;
-  color: #182041;
-  font-weight: 600;
+  color: #c0c1c2;
+  font-weight: 100;
   text-transform: uppercase;
 }
 
 #desktopBlurb a {
-  font-size: 0.95em;
+  font-size: 0.8em;
   margin-left: 0px;
+  line-height: 2.6em;
+}
+
+#blurbSpan {
+  color: #141b36;
+  line-height: 2.3em;
 }
 
 #desktopBlurb a:hover {
-  color: #2a3777;
+  color: rgb(206, 206, 206);
 }
 
 #desktopBlurb {
   margin-top: 1em;
   padding: 0px;
   font-size: 0.9em;
-  font-weight: 400;
-  color: #1b2346;
+  font-weight: 100;
+  color: #161d3a;
+  color: #d6d7db;
+  line-height: 1.7em;
 }
 
 @media (max-width: 784px) {

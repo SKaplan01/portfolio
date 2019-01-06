@@ -64,8 +64,6 @@ class PortfolioCardTablet extends Component {
             />
           </div>
         </div>
-
-        {/* <CardButtons siteUrl={siteUrl} githubUrl={githubUrl} /> */}
       </div>
     )
   }

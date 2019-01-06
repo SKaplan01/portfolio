@@ -12,7 +12,7 @@ class PortfolioContainer extends Component {
     return (
       <div id="portfolioContainer">
         <div id="cardContainer">
-          <h3>Recent Work</h3>
+          <h3 id="recentWork">Recent Work</h3>
           <PortfolioCardTablet
             imgSrc={jobly}
             theme="#3857e2"
@@ -31,7 +31,8 @@ class PortfolioContainer extends Component {
             imgAlt="Product page for lipslut.com"
             title="Faneron"
             subtitle="React, Gatsby.js, GraphQL, JAMstack"
-            caption="Lipslut.com sells makeup to benefit progressive causes."
+            caption="Lipslut.com sells makeup to benefit progressive causes.
+            Upon making a purchase, users can vote for an organization to support."
             githubUrl="https://github.com/SKaplan01/lipslut2.0"
             siteUrl="https://www.lipslut.com/"
           />

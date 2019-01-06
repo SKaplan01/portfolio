@@ -39,7 +39,7 @@ class ContactButtons extends Component {
         </span>
         <span
           id="resumeIcon"
-          style={{ paddingLeft: '12px', paddingRight: '12px' }}
+          style={{ paddingLeft: '9px', paddingRight: '9px' }}
         >
           <a
             href={sarahKaplanResume}

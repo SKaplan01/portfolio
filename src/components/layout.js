@@ -19,6 +19,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
   faFileDownload,
@@ -29,7 +30,8 @@ library.add(
   faAngleDown,
   faAngleDoubleDown,
   faChevronCircleDown,
-  faArrowDown
+  faArrowDown,
+  faAngleDoubleRight
 )
 library.add(fab)
 

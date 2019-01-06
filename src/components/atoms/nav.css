@@ -1,6 +1,6 @@
 #navContainer-full {
   width: 100vw;
-  height: 2em;
+  height: 35px;
   position: fixed;
   right: 0px;
   display: flex;
@@ -8,6 +8,11 @@
   align-items: center;
   background-color: rgba(11, 12, 27, 0.938);
   letter-spacing: 0.1em;
+}
+
+#navContainer-left,
+#navContainer-right {
+  height: 30px;
 }
 
 #navContainer-left {
@@ -42,10 +47,16 @@
   color: #465bc4;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 777px) {
   #navContainer-full {
     background-color: #08080900;
     z-index: 1000;
+    height: 70px;
+  }
+
+  #navContainer-left,
+  #navContainer-right {
+    height: 70px;
   }
 
   #navContainer-right {

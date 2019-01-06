@@ -13,12 +13,13 @@ class PortfolioContainer extends Component {
       <div id="portfolioContainer">
         <div id="cardContainer">
           <PortfolioCardTablet
-            imgSrc={joblyMobile3}
+            imgSrc={jobly}
             theme="#3857e2"
             imgAlt="Jobly site"
             title="Jobly"
             subtitle="React, Node/Express, PostgreSQL"
-            caption="Jobly is an app where users can view job postings and apply for open positions."
+            caption="Jobly is an app where users can view job postings and apply for open positions.
+            Here's some more random text to fill this space and check the layout"
             githubUrl="https://github.com/SKaplan01/react_jobly"
             siteUrl="https://jobilly.herokuapp.com/"
           />

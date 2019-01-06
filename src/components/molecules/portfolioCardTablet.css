@@ -1,6 +1,6 @@
 #cardTablet {
   padding: 1em;
-  padding-top: 2em;
+  padding-top: 5em;
 }
 
 #topRowTablet,
@@ -31,7 +31,8 @@
 }
 
 #cardLeftTablet {
-  width: 175%;
+  /* width: 175%; */
+  min-width: 320px;
 }
 
 #thirdRowTablet i {
@@ -76,26 +77,33 @@ so that the hover outline can be outside the button */
 /* for checking alignment of divs on card
 highlights each div in different background color */
 
-/* #topLeft {
+/* 
+#topLeftTablet {
   background-color: white;
 }
 
-#topRight {
+#topRightTablet {
   background-color: pink;
 }
 
-#cardLeft {
+#cardLeftTablet {
   background-color: blue;
 }
 
-#cardRight {
+#cardRightTablet {
   background-color: green;
 }
 
-#thirdLeft {
+#thirdLeftTablet {
   background-color: yellow;
 }
 
-#thirdRight {
+#thirdRightTablet {
   background-color: grey;
 } */
+
+@media (max-width: 767px) {
+  #cardTablet {
+    padding-top: 2em;
+  }
+}

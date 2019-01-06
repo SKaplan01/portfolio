@@ -4,7 +4,6 @@
 
 #mobileBlurb a {
   color: #263168;
-  /* color: #344492; */
   font-weight: 600;
   font-size: 1em;
   -webkit-transition: font-size 200ms;
@@ -26,26 +25,30 @@
   letter-spacing: 0.08em;
 }
 
-.introBlurb p {
-  margin: 0 auto;
-  padding-top: 0.4em;
-  padding-bottom: 0em;
-  color: rgb(16, 16, 20);
-  color: #151b3a;
-  font-weight: 800;
-}
-
 .introBlurb a {
   text-shadow: none;
   background-image: none;
   color: #232e66;
-  color: rgb(206, 206, 206);
   font-weight: 100;
   text-transform: uppercase;
-  margin-left: 0.3em;
 }
 
-@media (max-width: 800px) {
+#desktopBlurb a {
+  font-size: 1.5em;
+  margin-left: 0px;
+}
+
+#desktopBlurb {
+  margin-top: 1em;
+}
+
+@media (max-width: 880px) {
+  #desktopBlurb a {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 777px) {
   #mobileBlurb {
     display: block;
     font-size: 1.2em;

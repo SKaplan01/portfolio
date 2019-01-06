@@ -7,8 +7,21 @@ class IntroBlurb extends Component {
     return (
       <div className="introBlurb">
         <p id="desktopBlurb">
-          Check out my <a> recent work</a> <br />
-          with Gatsby.js and React.
+          <a>
+            {' '}
+            recent work
+            <br />
+            <FontAwesomeIcon
+              icon="angle-double-right"
+              style={{
+                color: '#2d3a79',
+                fontSize: '.87em',
+                marginLeft: '.5em',
+              }}
+            />
+          </a>
+          {/* Check out my <a> recent work</a> <br />
+          with Gatsby.js and React. */}
         </p>
         <p id="mobileBlurb">
           <a>

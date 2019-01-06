@@ -52,7 +52,7 @@ class PortfolioCardTablet extends Component {
           </div>
         </div>
         <div id="thirdRowTablet">
-          <div id="thirdLeft">
+          <div id="thirdLeftTablet">
             <i>{subtitle}</i>
           </div>
           <div id="thirdRightTablet">

@@ -25,6 +25,7 @@ class PortfolioCardMobile extends Component {
             <h4 style={{ color: theme }}>{title}</h4>
           </div>
           <div id="topRight">
+            <span className="highlightM" />
             <button
               style={{
                 backgroundColor: theme,

@@ -16,7 +16,7 @@ class PortfolioContainerMobile extends Component {
             imgAlt="Jobly site"
             title="Jobly"
             subtitle="React, Node/Express"
-            caption="Jobly is an app where users can view job postings and apply for open positions"
+            caption="Jobly is a mock app where users can view and apply for open jobs."
             githubUrl="https://github.com/SKaplan01/react_jobly"
             siteUrl="https://jobilly.herokuapp.com/"
           />

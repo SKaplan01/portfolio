@@ -31,7 +31,6 @@
 }
 
 #cardLeftTablet {
-  /* width: 175%; */
   min-width: 320px;
 }
 
@@ -64,12 +63,24 @@
   border-radius: 0.3em;
 }
 
-/* TODO: make a sibling component like I did for the icons 
-so that the hover outline can be outside the button */
-#topRightTablet button:hover {
-  /* box-shadow: 0 0 3px 2px #5364af;
-  box-shadow: 0 0 0 2px rgb(141, 189, 211); */
-  border: 2px dotted rgb(206, 206, 206);
+#topRightTablet {
+  position: relative;
+}
+
+#topRightTablet .highlightM {
+  z-index: 100;
+  background-color: rgba(255, 255, 0, 0);
+  position: absolute;
+  width: 5.6em;
+  height: 1.6em;
+  top: 0px;
+  left: -7px;
+  border-radius: 0px;
+}
+
+#topRightTablet .highlightM:hover {
+  border-left: 3px dotted rgb(206, 206, 206);
+  border-right: 3px dotted rgb(206, 206, 206);
 }
 
 /* ///////////// */

@@ -43,6 +43,7 @@
   padding-top: 0px;
   padding-right: 0px;
   margin-left: 1em;
+  font-size: 1em;
 }
 
 #cardMobile h4 {
@@ -62,12 +63,24 @@
   border-radius: 0.3em;
 }
 
-/* TODO: make a sibling component like I did for the icons 
-so that the hover outline can be outside the button */
-#topRight button:hover {
-  /* box-shadow: 0 0 3px 2px #5364af;
-  box-shadow: 0 0 0 2px rgb(141, 189, 211); */
-  border: 2px dotted rgb(206, 206, 206);
+#topRight {
+  position: relative;
+}
+
+#topRight .highlightM {
+  z-index: 100;
+  background-color: rgba(255, 255, 0, 0);
+  position: absolute;
+  width: 5.8em;
+  height: 1.6em;
+  top: 0px;
+  left: -7px;
+  border-radius: 0px;
+}
+
+#topRight .highlightM:hover {
+  border-left: 3px dotted rgb(206, 206, 206);
+  border-right: 3px dotted rgb(206, 206, 206);
 }
 
 /* ///////////// */
@@ -98,3 +111,10 @@ highlights each div in different background color */
 #thirdRight {
   background-color: grey;
 } */
+
+@media (max-width: 430px) {
+  #cardRight p {
+    font-size: 0.8em;
+    line-height: 1.8em;
+  }
+}

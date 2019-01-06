@@ -47,7 +47,7 @@
   color: #465bc4;
 }
 
-@media (min-width: 777px) {
+@media (min-width: 778px) {
   #navContainer-full {
     background-color: #08080900;
     z-index: 1000;

@@ -1,6 +1,8 @@
 #cardTablet {
   padding: 1em;
-  padding-top: 5em;
+  padding-top: 1.3em;
+  max-width: 716px;
+  margin: 0 auto;
 }
 
 #topRowTablet,
@@ -19,7 +21,7 @@
 #topRowTablet {
   margin-bottom: 0.8em;
   padding-right: 0.85em;
-  padding-top: 1.2em;
+  padding-top: 1.6em;
 }
 
 #bottomRowTablet {
@@ -37,13 +39,16 @@
 #thirdRowTablet i {
   margin: 0px;
   padding: 0px;
-  font-size: 0.9em;
+  line-height: 2.5em;
+  font-size: 0.95em;
 }
 
 #cardRightTablet p {
   padding-top: 0px;
   padding-right: 0px;
   margin-left: 1em;
+  font-size: 0.95em;
+  line-height: 1.75em;
 }
 
 #cardTablet h4 {
@@ -83,13 +88,24 @@
   border-right: 3px dotted rgb(206, 206, 206);
 }
 
+@media (max-width: 1117px) {
+  #cardTablet p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 767px) {
+  #cardRightTablet p {
+    font-size: 0.9em;
+  }
+}
+
 /* ///////////// */
 
 /* for checking alignment of divs on card
 highlights each div in different background color */
 
-/* 
-#topLeftTablet {
+/* #topLeftTablet {
   background-color: white;
 }
 
@@ -112,9 +128,3 @@ highlights each div in different background color */
 #thirdRightTablet {
   background-color: grey;
 } */
-
-@media (max-width: 767px) {
-  #cardTablet {
-    padding-top: 2em;
-  }
-}

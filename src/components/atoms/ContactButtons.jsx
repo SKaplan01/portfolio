@@ -37,7 +37,10 @@ class ContactButtons extends Component {
             <FontAwesomeIcon icon={['fab', 'linkedin']} />
           </a>
         </span>
-        <span style={{ paddingLeft: '12px', paddingRight: '12px' }}>
+        <span
+          id="resumeIcon"
+          style={{ paddingLeft: '12px', paddingRight: '12px' }}
+        >
           <a
             href={sarahKaplanResume}
             target="_blank"

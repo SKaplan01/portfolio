@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './introBlurb.css'
 
@@ -7,21 +8,12 @@ class IntroBlurb extends Component {
     return (
       <div className="introBlurb">
         <p id="desktopBlurb">
-          <a>
-            {' '}
-            recent work
-            <br />
-            <FontAwesomeIcon
-              icon="angle-double-right"
-              style={{
-                color: '#2d3a79',
-                fontSize: '.87em',
-                marginLeft: '.5em',
-              }}
-            />
-          </a>
-          {/* Check out my <a> recent work</a> <br />
-          with Gatsby.js and React. */}
+          I'm a React, Gatsby.js and Node/Express developer.
+          <br />
+          Connect with me:
+          <Link to="/page-2">
+            <div>skaplandev@gmail</div>
+          </Link>
         </p>
         <p id="mobileBlurb">
           <a>

@@ -1,5 +1,5 @@
 #contactButtons {
-  margin-top: 1.2em;
+  margin-top: 1.5em;
   margin-bottom: 0em;
   width: 100%;
 }
@@ -7,8 +7,10 @@
   padding: 5px;
   padding-left: 9px;
   padding-right: 9px;
-  margin: 10px;
-  font-size: 1.1em;
+  margin: 8px;
+  margin-left: 0px;
+  margin-right: 16px;
+  font-size: 1em;
   width: 3em;
   height: 3em;
   border-radius: 50%;
@@ -22,6 +24,26 @@
 #contactButtons a {
   text-shadow: none;
   background-image: none;
+}
+
+@media (max-width: 865px) {
+  #contactButtons span {
+    font-size: 0.82em;
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 777px) {
+  #resumeIcon {
+    display: inline;
+  }
+  #contactButtons span {
+    margin: 10px;
+  }
+  #contactButtons span {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
 }
 
 @media (max-width: 480px) {

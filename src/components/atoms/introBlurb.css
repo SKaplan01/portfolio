@@ -18,33 +18,41 @@
 
 .introBlurb {
   width: 95%;
+  width: 100%;
   margin: 0 auto;
-  font-size: 1.05em;
-  padding: 0.5em;
+  font-size: 0.9em;
+  padding-top: 0.5em;
   margin-bottom: 0em;
   letter-spacing: 0.08em;
 }
-
 .introBlurb a {
   text-shadow: none;
   background-image: none;
-  color: #232e66;
-  font-weight: 100;
+  color: #182041;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 #desktopBlurb a {
-  font-size: 1.5em;
+  font-size: 0.95em;
   margin-left: 0px;
+}
+
+#desktopBlurb a:hover {
+  color: #2a3777;
 }
 
 #desktopBlurb {
   margin-top: 1em;
+  padding: 0px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #1b2346;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 784px) {
   #desktopBlurb a {
-    font-size: 1.4em;
+    font-size: 0.9em;
   }
 }
 

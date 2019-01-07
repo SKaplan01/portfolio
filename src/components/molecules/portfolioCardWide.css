@@ -1,8 +1,11 @@
 #cardTablet {
-  padding: 1em;
-  padding-top: 1.3em;
-  max-width: 716px;
+  padding-top: 0.3em;
+  max-width: 630px;
   margin: 0 auto;
+}
+
+#recentWork {
+  padding-bottom: 0.6em;
 }
 
 #topRowTablet,
@@ -10,22 +13,17 @@
 #thirdRowTablet {
   display: flex;
   color: rgb(206, 206, 206);
-  /* border: 15px solid #364174; */
   justify-content: space-between;
-  width: 95%;
   margin: 0 auto;
-  padding-left: 0.25em;
-  padding-right: 0.25em;
 }
 
 #topRowTablet {
-  margin-bottom: 0.8em;
-  padding-right: 0.85em;
+  margin-bottom: 0em;
   padding-top: 2.2em;
 }
 
 #bottomRowTablet {
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
 }
 
 #thirdRowTablet {
@@ -40,18 +38,26 @@
   min-width: 320px;
 }
 
-#thirdRowTablet i {
+#topRightTablet {
+  display: flex;
+  align-items: center;
+}
+
+#thirdLeftTablet p {
   margin: 0px;
   padding: 0px;
-  line-height: 2.5em;
-  font-size: 0.95em;
-  letter-spacing: 0.07em;
+  line-height: 3.5em;
+  font-size: 0.75em;
+  letter-spacing: 0.13em;
+  vertical-align: bottom;
+  text-transform: uppercase;
+  color: rgb(141, 140, 140);
 }
 
 #cardRightTablet p {
   padding-top: 0px;
   padding-right: 0px;
-  margin-left: 1.4em;
+  margin-left: 2em;
   font-size: 0.9em;
   line-height: 1.75em;
   letter-spacing: 0.07em;
@@ -71,7 +77,7 @@
   padding-right: 7px;
   margin-right: 0em;
   border: none;
-  border-radius: 0.3em;
+  border-radius: 0.2em;
 }
 
 #topRightTablet {
@@ -84,8 +90,8 @@
   position: absolute;
   width: 5.6em;
   height: 1.6em;
-  top: 0px;
-  left: -7px;
+  top: 7px;
+  left: 107px;
   border-radius: 0px;
 }
 
@@ -103,6 +109,9 @@
 @media (max-width: 1085px) {
   #cardTablet p {
     font-size: 0.83em;
+  }
+  #thirdLeftTablet p {
+    font-size: 0.75em;
   }
 }
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import PortfolioCard from './PortfolioCard'
-import PortfolioCardTablet from './PortfolioCardTablet'
+import PortfolioCardWide from './PortfolioCardWide'
 import lsVoteGif from '../../assets/lsVoteGif.gif'
 import jobly from '../../assets/jobly.png'
 import joblyMobile3 from '../../assets/joblyMobile3.png'
@@ -12,8 +11,8 @@ class PortfolioContainer extends Component {
     return (
       <div id="portfolioContainer">
         <div id="cardContainer">
-          <h3 id="recentWork">Recent Work</h3>
-          <PortfolioCardTablet
+          <PortfolioCardWide
+            isFirst={true}
             imgSrc={jobly}
             theme="#3857e2"
             imgAlt="Jobly site"
@@ -25,12 +24,13 @@ class PortfolioContainer extends Component {
             githubUrl="https://github.com/SKaplan01/react_jobly"
             siteUrl="https://jobilly.herokuapp.com/"
           />
-          <PortfolioCardTablet
+          <PortfolioCardWide
+            isFirst={false}
             imgSrc={lsVoteGif}
             theme="#a3075d"
             imgAlt="Product page for lipslut.com"
             title="Faneron"
-            subtitle="React, Gatsby.js, GraphQL, JAMstack"
+            subtitle="React, Gatsby.js, GraphQL"
             caption="Lipslut.com sells makeup to benefit progressive causes.
             Upon making a purchase, users can vote for an organization to support."
             githubUrl="https://github.com/SKaplan01/lipslut2.0"

@@ -7,6 +7,10 @@
   display: none;
 }
 
+#titleMobile {
+  display: none;
+}
+
 .overlay {
   background-color: rgba(20, 20, 20, 0.705);
   width: 100%;
@@ -48,23 +52,26 @@ h1 {
 h3 {
   color: rgb(194, 193, 193);
   letter-spacing: 0.16em;
-  font-size: 0.85em;
+  font-size: 0.88em;
   line-height: 2em;
   text-transform: uppercase;
 }
 
 .main-content {
   text-align: left;
-  padding: 2em;
-  padding-left: 2.6em;
+  padding: 1.8em;
+  padding-left: 2.7em;
   padding-top: 6em;
 }
 
-/* .profile-pic {
-  border-radius: 100%;
-  width: 120px;
-  margin: 0px;
-} */
+@media (max-width: 1020px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
 
 @media (max-width: 888px) {
   .main-content {
@@ -116,6 +123,13 @@ h3 {
     padding: 1.4em;
     padding-top: 4.5em;
     text-align: center;
+  }
+
+  #titleMobile {
+    display: block;
+  }
+  #titleDesktop {
+    display: none;
   }
   .main-content h1 {
     font-size: 2em;
@@ -197,6 +211,11 @@ h3 {
   .left {
     padding-top: 0.7em;
   }
+
+  .left.about,
+  .left.contact {
+    display: none;
+  }
 }
 
 @media (max-width: 612px) {
@@ -218,7 +237,7 @@ h3 {
 
 @media (max-width: 390px) {
   .main-content h1 {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
   .main-content h3 {
     font-size: 1.1em;

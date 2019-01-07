@@ -14,11 +14,11 @@ class Nav extends Component {
           </Link>
         </div>
         <div id="navContainer-right">
-          <Link to="/page-2">
+          <Link to="/about">
             <span>About</span>
           </Link>
 
-          <Link to="/page-2">
+          <Link to="/contact">
             <span>Contact</span>
           </Link>
         </div>

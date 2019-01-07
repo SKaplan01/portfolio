@@ -11,9 +11,6 @@ class IntroBlurb extends Component {
           <Link to="/page-2">
             <div>skaplandev@gmail</div>
           </Link>
-          <span id="blurbSpan">
-            I'm a React, Gatsby.js and Node/Express developer.
-          </span>
           <br />
         </p>
         <p id="mobileBlurb">

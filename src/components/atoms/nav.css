@@ -89,8 +89,7 @@
   #navContainer-right > a:hover {
     color: rgb(206, 206, 206);
     border-radius: 5px;
-    /* border: 1px solid rgb(206, 206, 206); */
-    background-color: #465bc4;
+    background-color: rgba(206, 206, 206, 0.267);
   }
 
   #navContainer-right {

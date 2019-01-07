@@ -12,7 +12,8 @@ class Intro extends Component {
     return (
       <React.Fragment>
         <h1>Sarah Kaplan</h1>
-        <h3>Software Engineer</h3>
+        <h3 id="titleDesktop">React, Gatsby.js and Node/Express Developer</h3>
+        <h3 id="titleMobile">Software Engineer</h3>
 
         {/* <a
           href={sarahKaplanResume}

@@ -1,40 +1,25 @@
 #portfolioContainer {
   margin: 0 auto;
-  padding: 3em;
-  padding-top: 1.9em;
+  padding: 5em;
+  padding-top: 2.2em;
+}
+
+#cardTablet {
+  margin: 0 auto;
 }
 
 #cardContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 auto;
   margin-top: 3.2em;
-  max-width: 724px;
 }
 
-#recentWork {
-  margin-left: 1.3em;
-  color: rgba(206, 206, 206, 0.836);
-  font-weight: 100;
-  text-transform: uppercase;
-  font-size: 1.3em;
-}
-
-@media (max-width: 1004px) {
-  #recentWork {
-    margin-left: 0.7em;
-  }
-}
-
-@media (max-width: 917px) {
-  #recentWork {
-    margin-left: 1.2em;
-  }
+@media (max-width: 1148px) {
   #portfolioContainer {
-    padding: 1.6em;
-    padding-top: 1em;
+    padding: 3em;
+    padding-top: 2.2em;
+  }
+  #cardContainer {
+    max-width: 600px;
   }
 }
 
@@ -46,11 +31,7 @@
   }
 
   #cardContainer {
-    margin-top: 1em;
-  }
-
-  #recentWork {
-    display: none;
+    margin-top: 3em;
   }
 }
 
@@ -61,13 +42,21 @@
 
   #portfolioContainer {
     margin: 0 auto;
-    padding: 2em;
+    padding: 3em;
     padding-top: 0em;
   }
 }
 
 @media (max-width: 470px) {
   #portfolioContainer {
-    padding: 1em;
+    padding: 2.7em;
+    padding-top: 0em;
+  }
+}
+
+@media (max-width: 400px) {
+  #portfolioContainer {
+    padding: 1.5em;
+    padding-top: 0em;
   }
 }

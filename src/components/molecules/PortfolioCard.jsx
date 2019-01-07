@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CardButtons from '../atoms/CardButtons'
+import CardButtonsMobile from '../atoms/CardButtonsMobile'
 import './portfolioCard.css'
 
 class PortfolioCard extends Component {
@@ -16,15 +16,54 @@ class PortfolioCard extends Component {
       caption,
       githubUrl,
       siteUrl,
+      theme,
     } = this.props
     return (
-      <div id="cardOverlay">
-        <div id="card">
-          <h4>{title}</h4>
-          <i>{subtitle}</i>
-          <img src={imgSrc} alt={imgAlt} />
-          <p>{caption}</p>
-          <CardButtons siteUrl={siteUrl} githubUrl={githubUrl} />
+      <div id="card">
+        {this.props.isFirst ? <h3 id="recentWork">Recent Work</h3> : null}
+        <div id="topRow" style={{ borderTop: `7px dotted ${theme}` }}>
+          <div id="topLeft">
+            <h4 style={{ color: theme }}>{title}</h4>
+          </div>
+          <div id="topRight">
+            <div>
+              <CardButtonsMobile
+                siteUrl={siteUrl}
+                githubUrl={githubUrl}
+                color={theme}
+              />
+            </div>
+          </div>
+        </div>
+
+        <img src={imgSrc} alt={imgAlt} />
+        <div id="captionRow">
+          <div id="subtitle">
+            <p style={{ fontSize: '1em', letterSpacing: '0.12em' }}>
+              {subtitle}
+            </p>
+          </div>
+          <div id="lastRow">
+            <span className="highlightM" />
+
+            <button
+              style={{
+                backgroundColor: theme,
+                fontSize: '0.7em',
+              }}
+            >
+              <span
+                style={{
+                  letterSpacing: '.15em',
+                  color: 'rgb(240,240,240)',
+                  fontSize: '0.8em',
+                  textTransform: 'uppercase',
+                }}
+              >
+                Details
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     )

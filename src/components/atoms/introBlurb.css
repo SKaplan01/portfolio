@@ -17,7 +17,6 @@
 }
 
 .introBlurb {
-  width: 95%;
   width: 100%;
   margin: 0 auto;
   font-size: 0.9em;
@@ -34,8 +33,9 @@
 }
 
 #desktopBlurb a {
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-left: 0px;
+  letter-spacing: 0.18em;
   line-height: 2.6em;
 }
 
@@ -72,6 +72,12 @@
 
   #desktopBlurb {
     display: none;
+  }
+}
+
+@media (max-width: 502px) {
+  #mobileBlurb {
+    margin-top: 0em;
   }
 }
 

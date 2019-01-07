@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PortfolioCardMobile from './PortfolioCardMobile'
+import PortfolioCard from './PortfolioCard'
 import lsVoteGif from '../../assets/lsVoteGif.gif'
 import joblyMobile3 from '../../assets/joblyMobile3.png'
 import jobly from '../../assets/jobly.gif'
@@ -10,24 +10,29 @@ class PortfolioContainerMobile extends Component {
     return (
       <div id="portfolioContainer">
         <div id="cardContainer">
-          <h3 id="recentWork">Recent Work</h3>
-          <PortfolioCardMobile
+          <PortfolioCard
+            isFirst={true}
             imgSrc={joblyMobile3}
             theme="#3857e2"
             imgAlt="Jobly site"
             title="Jobly"
-            subtitle="React, Node/Express"
-            caption="Jobly is a mock app where users can view and apply for open jobs."
+            subtitle="React, Node/Express, PostgreSQL"
+            caption="Jobly is a mock app where users can view job postings 
+            and apply for open positions. Users can filter the job postings 
+            by company or via a keyword search."
             githubUrl="https://github.com/SKaplan01/react_jobly"
             siteUrl="https://jobilly.herokuapp.com/"
           />
-          <PortfolioCardMobile
+          <PortfolioCard
+            isFirst={false}
             imgSrc={lsVoteGif}
             theme="#a3075d"
             imgAlt="Product page for lipslut.com"
             title="Faneron"
             subtitle="React, Gatsby.js, GraphQL"
-            caption="Lipslut.com sells makeup to benefit progressive causes."
+            caption="Lipslut.com sells makeup to benefit progressive causes.
+            With every purchase, the user can vote for an organization to 
+            support."
             githubUrl="https://github.com/SKaplan01/lipslut2.0"
             siteUrl="https://www.lipslut.com/"
           />

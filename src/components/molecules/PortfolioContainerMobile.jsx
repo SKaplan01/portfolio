@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PortfolioCard from './PortfolioCard'
 import lsVoteGif from '../../assets/lsVoteGif.gif'
+import lipslutGif from '../../assets/lipslutGif.gif'
 import joblyMobile3 from '../../assets/joblyMobile3.png'
 import jobly from '../../assets/jobly.gif'
 import './portfolioContainer.css'
@@ -13,7 +14,7 @@ class PortfolioContainerMobile extends Component {
           <PortfolioCard
             isFirst={true}
             imgSrc={joblyMobile3}
-            theme="#3857e2"
+            theme="#3846c7"
             imgAlt="Jobly site"
             title="Jobly"
             subtitle="React, Node/Express, PostgreSQL"
@@ -25,8 +26,8 @@ class PortfolioContainerMobile extends Component {
           />
           <PortfolioCard
             isFirst={false}
-            imgSrc={lsVoteGif}
-            theme="#a3075d"
+            imgSrc={lipslutGif}
+            theme="#EC208D"
             imgAlt="Product page for lipslut.com"
             title="Faneron"
             subtitle="React, Gatsby.js, GraphQL"
@@ -45,3 +46,4 @@ class PortfolioContainerMobile extends Component {
 export default PortfolioContainerMobile
 
 //theme="#364174" (previous jobly theme)
+//theme="#a3075d" (previous lipslut theme)

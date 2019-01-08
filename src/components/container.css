@@ -7,12 +7,16 @@
   display: none;
 }
 
+#introMobile {
+  display: none;
+}
+
 #titleMobile {
   display: none;
 }
 
 .overlay {
-  background-color: rgba(20, 20, 20, 0.705);
+  /* background-color: rgba(20, 20, 20, 0.644); */
   width: 100%;
   height: 100%;
   margin: 0;
@@ -20,8 +24,9 @@
 }
 
 .left {
-  background-color: rgb(0, 0, 0);
-  background-image: url('../assets/sunset5.jpg');
+  background-color: rgb(206, 206, 206);
+  background-color: rgb(14, 14, 14);
+  /* background-image: url('../assets/sunset5.jpg'); */
   background-repeat: no-repeat;
   width: 35vw;
   max-width: 315px;
@@ -32,25 +37,29 @@
 }
 
 .right {
-  background-color: rgb(8, 8, 9);
   background-color: #0a0a0b;
+  background-color: rgb(247, 244, 244);
+
   min-height: 100vh;
   margin-left: 300px;
   width: 100%;
 }
 
 h1 {
-  color: rgb(206, 206, 206);
   color: rgb(194, 193, 193);
+  /* color: #0a0a0b; */
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-size: 2.2em;
   line-height: 1.5em;
   font-weight: 400;
+  /* new layout */
+  font-size: 2em;
 }
 
 h3 {
   color: rgb(194, 193, 193);
+  /* color: #0a0a0b; */
   letter-spacing: 0.16em;
   font-size: 0.88em;
   line-height: 2em;
@@ -62,8 +71,17 @@ h3 {
   padding: 1.8em;
   padding-left: 2.7em;
   padding-top: 6em;
+  /* for picture */
+  padding-top: 5em;
 }
 
+.profile-pic img {
+  margin: 0 auto;
+  margin-left: 0em;
+  border-radius: 8%;
+  border: 4px solid rgb(176, 176, 182);
+  width: 160px;
+}
 @media (max-width: 1020px) {
   .desktop {
     display: none;
@@ -100,11 +118,17 @@ h3 {
 }
 
 @media (max-width: 777px) {
-  .overlay {
-    background-color: rgba(20, 20, 20, 0.521);
+  .profile-pic {
+    display: block;
   }
   .container {
     flex-direction: column;
+  }
+  #introWide {
+    display: none;
+  }
+  #introMobile {
+    display: block;
   }
   .left,
   .right {
@@ -114,14 +138,13 @@ h3 {
   }
   .left {
     position: static;
-    max-height: 435px;
-    background-image: url('../assets/sunset12.jpg');
-    background-repeat: no-repeat;
-    background-color: rgb(2, 3, 2);
+    max-height: 310px;
+    background-color: rgb(22, 27, 51);
+    background-color: rgb(247, 244, 244);
   }
   .main-content {
     padding: 1.4em;
-    padding-top: 4.5em;
+    padding-top: 3em;
     text-align: center;
   }
 
@@ -153,14 +176,14 @@ h3 {
 @media (max-width: 612px) {
   .left {
     position: static;
-    background-image: url('../assets/sunset11.jpg');
+    /* background-image: url('../assets/sunset11.jpg'); */
     height: 392px;
   }
   .right {
-    background-color: rgb(10, 10, 15);
+    /* background-color: rgb(10, 10, 15); */
   }
   .overlay {
-    background-color: rgba(20, 20, 20, 0.514);
+    /* background-color: rgba(20, 20, 20, 0.514); */
   }
   .main-content {
     padding: 1em;
@@ -182,7 +205,7 @@ h3 {
 
 @media (max-width: 505px) {
   .left {
-    background-image: url('../assets/sunsetmobile.jpg');
+    /* background-image: url('../assets/sunsetmobile.jpg'); */
     height: 363px;
   }
   .main-content {
@@ -226,12 +249,12 @@ h3 {
 
 @media (max-width: 400px) {
   .left {
-    background-image: url('../assets/sunset9.jpg');
+    /* background-image: url('../assets/sunset9.jpg'); */
     height: 343px;
   }
 
   .overlay {
-    background-color: rgba(20, 20, 20, 0.493);
+    /* background-color: rgba(20, 20, 20, 0.493); */
   }
 }
 

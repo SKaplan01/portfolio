@@ -22,7 +22,8 @@ class PortfolioCardWide extends Component {
       <div id="cardTablet">
         {this.props.isFirst ? <h3 id="recentWork">Recent Work</h3> : null}
 
-        <div id="topRowTablet" style={{ borderTop: `7px dotted ${theme}` }}>
+        {/* <div id="topRowTablet" style={{ borderTop: `7px dotted ${theme}` }}> */}
+        <div id="topRowTablet" style={{ borderTop: `4px solid ${theme}` }}>
           <div id="topLeftTablet">
             <h4 style={{ color: theme }}>{title}</h4>
           </div>
@@ -40,13 +41,14 @@ class PortfolioCardWide extends Component {
                 style={{
                   backgroundColor: theme,
                   marginLeft: '1em',
+                  height: '1.6em',
                 }}
               >
                 <span
                   style={{
-                    letterSpacing: '.15em',
+                    letterSpacing: '.1em',
                     color: 'rgb(240,240,240)',
-                    fontSize: '0.8em',
+                    fontSize: '0.7em',
                     textTransform: 'uppercase',
                   }}
                 >

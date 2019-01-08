@@ -22,6 +22,8 @@ h4 {
   font-size: 1.2em;
   color: rgb(184, 182, 182);
   margin-bottom: 1em;
+  /* new layout */
+  color: rgb(22, 22, 22);
 }
 
 #topRow,
@@ -56,6 +58,8 @@ img {
   text-transform: uppercase;
   color: rgb(141, 140, 140);
   line-height: 1.6em;
+  /* new layout */
+  color: rgb(82, 82, 82);
 }
 
 #captionRow {
@@ -92,16 +96,20 @@ img {
   z-index: 100;
   background-color: rgba(255, 255, 0, 0);
   position: absolute;
-  width: 4.5em;
+  width: 3.8em;
   height: 1.6em;
-  top: 1px;
-  left: -7px;
-  border-radius: 0px;
+  top: 0px;
+  left: -1px;
+  border-radius: 4px;
 }
 
 #lastRow .highlightM:hover {
-  border-left: 3px dotted rgb(206, 206, 206);
+  background-color: rgba(255, 255, 255, 0.192);
+
+  /* border-left: 3px dotted rgb(206, 206, 206);
   border-right: 3px dotted rgb(206, 206, 206);
+  border-left: 2px dotted rgba(146, 146, 146, 0.904);
+  border-right: 2px dotted rgba(146, 146, 146, 0.904); */
 }
 
 @media (max-width: 1000px) {

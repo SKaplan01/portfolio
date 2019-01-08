@@ -10,19 +10,19 @@ class ContactButtons extends Component {
       textDecoration: 'none',
       textDecorationStyle: 'none',
       textDecorationLine: 'none',
-      color: 'rgb(206, 206, 206)',
+      color: 'rgb(245, 243, 243)',
     }
     return (
       <div id="contactButtons">
         <Link to="/page-2" style={linkStyle}>
-          <span>
+          <span id="emailButton">
             <FontAwesomeIcon icon="envelope" />
           </span>
         </Link>
         <a
           href="https://github.com/skaplan01/"
           target="_blank"
-          style={{ color: 'rgb(206, 206, 206)', textDecoration: 'none' }}
+          style={{ color: 'rgb(245, 243, 243)', textDecoration: 'none' }}
         >
           <span>
             <FontAwesomeIcon icon={['fab', 'github']} />
@@ -32,21 +32,21 @@ class ContactButtons extends Component {
           <a
             href="https://www.linkedin.com/in/sarah-kaplan-dev/"
             target="_blank"
-            style={{ color: 'rgb(206, 206, 206)', textDecoration: 'none' }}
+            style={{ color: 'rgb(245, 243, 243)', textDecoration: 'none' }}
           >
             <FontAwesomeIcon icon={['fab', 'linkedin']} />
           </a>
         </span>
         <span
           id="resumeIcon"
-          style={{ paddingLeft: '9px', paddingRight: '9px' }}
+          style={{ paddingLeft: '0.6em', paddingRight: '0.6em' }}
         >
           <a
             href={sarahKaplanResume}
             target="_blank"
             style={{ textDecoration: 'none', lineHeight: '9px' }}
           >
-            <FontAwesomeIcon icon="file-download" color="rgb(206, 206, 206)" />
+            <FontAwesomeIcon icon="file-download" color="rgb(245, 243, 243)" />
           </a>
         </span>
         {/* <div style={{ display: 'inline-block', width: '6em', height: '3em' }}>

@@ -36,7 +36,8 @@
   font-size: 0.9em;
   margin-left: 0px;
   letter-spacing: 0.18em;
-  line-height: 2.6em;
+  line-height: 1em;
+  /* color: #0a0a0b; */
 }
 
 #blurbSpan {
@@ -56,6 +57,7 @@
   color: #161d3a;
   color: #d6d7db;
   line-height: 1.7em;
+  margin-bottom: 0em;
 }
 
 @media (max-width: 784px) {

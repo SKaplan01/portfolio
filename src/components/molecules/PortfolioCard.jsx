@@ -21,7 +21,8 @@ class PortfolioCard extends Component {
     return (
       <div id="card">
         {this.props.isFirst ? <h3 id="recentWork">Recent Work</h3> : null}
-        <div id="topRow" style={{ borderTop: `7px dotted ${theme}` }}>
+        {/* <div id="topRow" style={{ borderTop: `7px dotted ${theme}` }}> */}
+        <div id="topRow" style={{ borderTop: `4px solid ${theme}` }}>
           <div id="topLeft">
             <h4 style={{ color: theme }}>{title}</h4>
           </div>

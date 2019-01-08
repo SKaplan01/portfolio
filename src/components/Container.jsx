@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Intro from './atoms/Intro'
+import IntroMobile from './atoms/IntroMobile'
 import './container.css'
 import PortfolioContainer from './molecules/PortfolioContainer'
 import PortfolioContainerMobile from './molecules/PortfolioContainerMobile'
@@ -12,6 +13,7 @@ class Container extends Component {
           <div className="overlay">
             <div className="main-content">
               <Intro />
+              <IntroMobile />
             </div>
           </div>
           <a id="workLink" />

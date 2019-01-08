@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PortfolioCardWide from './PortfolioCardWide'
 import lsVoteGif from '../../assets/lsVoteGif.gif'
+import lipslutGif from '../../assets/lipslutGif.gif'
 import jobly from '../../assets/jobly.png'
 import joblyMobile3 from '../../assets/joblyMobile3.png'
 import './portfolioContainer.css'
@@ -14,7 +15,7 @@ class PortfolioContainer extends Component {
           <PortfolioCardWide
             isFirst={true}
             imgSrc={jobly}
-            theme="#3857e2"
+            theme="#3846c7"
             imgAlt="Jobly site"
             title="Jobly"
             subtitle="React, Node/Express, PostgreSQL"
@@ -26,8 +27,8 @@ class PortfolioContainer extends Component {
           />
           <PortfolioCardWide
             isFirst={false}
-            imgSrc={lsVoteGif}
-            theme="#a3075d"
+            imgSrc={lipslutGif}
+            theme="#EC208D"
             imgAlt="Product page for lipslut.com"
             title="Faneron"
             subtitle="React, Gatsby.js, GraphQL"
@@ -44,32 +45,8 @@ class PortfolioContainer extends Component {
 
 export default PortfolioContainer
 
-// Old style CardActions
-// <PortfolioCard
-//             imgSrc={jobly}
-//             imgAlt="Jobly site"
-//             title="Jobly"
-//             subtitle="React, Node/Express, PostgreSQL"
-//             caption="Jobly is an app where users can view job postings and apply for open positions"
-//             githubUrl="https://github.com/SKaplan01/react_jobly"
-//             siteUrl="https://jobilly.herokuapp.com/"
-//           />
-//           <PortfolioCard
-//             imgSrc={lsVoteGif}
-//             imgAlt="Product page for lipslut.com"
-//             title="Faneron"
-//             subtitle="React, Gatsby.js, GraphQL, JAMstack"
-//             caption="Lipslut.com is an e-commerce site selling makeup to benefit progressive causes."
-//             githubUrl="https://github.com/SKaplan01/lipslut2.0"
-//             siteUrl="https://www.lipslut.com/"
-//           />
-
-//           <PortfolioCard
-//             imgSrc={lsVoteGif}
-//             imgAlt="Product page for lipslut.com"
-//             title="Microblog"
-//             subtitle="React, Redux"
-//             caption="Lipslut.com is an e-commerce site selling makeup to benefit progressive causes."
-//             githubUrl="https://github.com/SKaplan01/microblog"
-//             siteUrl="https://www.lipslut.com/"
-//           />
+//themes for old layout with sunset backgeound
+//jobly
+//theme="#3857e2"
+//lipslut
+//#a3075d

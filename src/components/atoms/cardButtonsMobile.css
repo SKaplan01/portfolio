@@ -22,15 +22,19 @@
 }
 
 .highlight:hover {
-  border: 3px dotted rgb(248, 248, 248);
+  /* border: 3px dotted rgb(248, 248, 248);
+  border: 2px dotted rgba(146, 146, 146, 0.904); */
+  background-color: rgba(255, 255, 255, 0.192);
 }
 
 .highlight-box {
   height: 1em;
   left: -0.28em;
-  top: 0.1em;
+  top: 0em;
 }
 
 .highlight-box:hover {
-  border-left: 3px dotted rgb(248, 248, 248);
+  /* border-left: 3px dotted rgb(248, 248, 248);
+  border-left: 2px dotted rgba(146, 146, 146, 0.904); */
+  background-color: rgba(255, 255, 255, 0.192);
 }

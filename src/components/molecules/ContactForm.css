@@ -1,0 +1,9 @@
+#formContainer {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 6em;
+}
+
+form {
+  background-color: white;
+}

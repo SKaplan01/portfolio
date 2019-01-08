@@ -1,0 +1,47 @@
+#introMobile {
+  text-align: left;
+  padding: 3.6em;
+  padding-top: 1em;
+}
+
+#introMobile h1,
+#introMobile h3 {
+  color: rgba(30, 31, 41, 0.87);
+}
+#introMobile h1 {
+  font-size: 2em;
+  line-height: 1.6em;
+  margin-bottom: 0.3em;
+  font-weight: 800;
+}
+
+#introMobile h3 {
+  font-size: 0.93em;
+  line-height: 1.7em;
+  letter-spacing: 0.1em;
+}
+
+#introMobile a {
+  text-shadow: none;
+  background-image: none;
+  color: rgba(30, 31, 41, 0.87);
+}
+
+#introMobile span {
+  text-transform: uppercase;
+  background-color: rgba(23, 23, 112, 0.397);
+  font-weight: 800;
+  font-size: 0.85em;
+}
+
+#introMobile #recentWorkMobile {
+  padding: 0.1em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  background-color: rgba(0, 0, 0, 0.068);
+  background-color: rgba(23, 23, 112, 0.098);
+}
+
+#introMobile #recentWorkMobile:hover {
+  background-color: rgba(23, 23, 112, 0.24);
+}

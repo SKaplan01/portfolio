@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Intro from './atoms/Intro'
+import ContactForm from './molecules/ContactForm'
 import './container.css'
 
 class ContainerContact extends Component {
@@ -14,7 +15,9 @@ class ContainerContact extends Component {
           </div>
           <a id="workLink" />
         </div>
-        <div className="right" />
+        <div className="right">
+          <ContactForm />
+        </div>
       </div>
     )
   }

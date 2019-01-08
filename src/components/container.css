@@ -234,7 +234,9 @@ h3 {
   .left {
     padding-top: 0.7em;
   }
-
+  .left {
+    max-height: 340px;
+  }
   .left.about,
   .left.contact {
     display: none;
@@ -258,7 +260,7 @@ h3 {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 420px) {
   .main-content h1 {
     font-size: 1.4em;
   }
@@ -266,5 +268,14 @@ h3 {
     font-size: 1.1em;
     margin-top: 0.8em;
     margin-bottom: 1.6em;
+  }
+  .left {
+    max-height: 290px;
+  }
+}
+
+@media (max-width: 399px) {
+  .left {
+    max-height: 280px;
   }
 }

@@ -27,10 +27,14 @@
   background-image: none;
 }
 
-@media (max-width: 865px) {
+@media (max-width: 1000px) {
   #contactButtons span {
     font-size: 0.89em;
     margin-right: 15px;
+  }
+  #contactButtons {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -52,9 +56,27 @@
   }
 }
 
+@media (max-width: 700px) {
+  #contactButtons {
+    margin-top: 1em;
+    margin-bottom: 0em;
+  }
+}
+
 @media (max-width: 480px) {
   #contactButtons {
     margin-top: 1.6em;
-    margin-bottom: 0em;
+  }
+}
+
+@media (max-width: 420px) {
+  #contactButtons {
+    margin-top: 1em;
+  }
+  #contactButtons span {
+    margin-right: 15px;
+    margin-left: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 }

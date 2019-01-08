@@ -135,7 +135,7 @@ img {
 
 @media (max-width: 830px) {
   #card {
-    padding: 1.2em;
+    padding: 1em;
     padding-top: 0em;
   }
 }
@@ -159,11 +159,21 @@ img {
   }
 }
 
-@media (max-width: 330px) {
+/* HERE */
+
+@media (max-width: 400px) {
+  #card {
+    padding: 2em;
+    padding-top: 0em;
+  }
   #topRow {
-    font-size: 0.75em;
+    font-size: 0.7em;
+    padding-top: 2.5em;
   }
   #bottomRow p {
-    font-size: 0.9em;
+    font-size: 0.8em;
+  }
+  #subtitle {
+    font-size: 0.7em;
   }
 }

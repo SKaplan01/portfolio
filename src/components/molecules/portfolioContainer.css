@@ -59,4 +59,7 @@
     padding: 1.5em;
     padding-top: 0em;
   }
+  #cardContainer {
+    margin-top: 1.5em;
+  }
 }

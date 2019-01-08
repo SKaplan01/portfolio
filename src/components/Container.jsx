@@ -16,8 +16,9 @@ class Container extends Component {
               <IntroMobile />
             </div>
           </div>
-          <a id="workLink" />
         </div>
+        <a id="workLink" />
+
         <div className="right desktop">
           <PortfolioContainer />
         </div>

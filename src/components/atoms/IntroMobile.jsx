@@ -14,7 +14,6 @@ class IntroMobile extends Component {
     return (
       <div id="introMobile">
         <h1>Sarah Kaplan</h1>
-        <ContactButtons />
         <h3 id="titleMobile">
           I love to build apps with React, Gatsby, and Node / Express. Check out
           my{' '}
@@ -32,6 +31,7 @@ class IntroMobile extends Component {
             </a>
           </span>
         </h3>
+        <ContactButtons />
 
         {/* <IntroBlurb /> */}
       </div>

@@ -13,9 +13,6 @@ class Intro extends Component {
     return (
       <div id="introWide">
         <h1>Sarah Kaplan</h1>
-        {/* <div className="profile-pic">
-          <img src={headshotsquare} alt="" />
-        </div> */}
         <IntroBlurb />
 
         <ContactButtons />

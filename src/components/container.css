@@ -18,6 +18,8 @@
 #titleDesktop {
   font-size: 0.75em;
   margin-bottom: 1em;
+  color: rgb(194, 193, 193);
+  line-height: 2em;
 }
 
 .overlay {
@@ -50,7 +52,8 @@
   width: 100%;
 }
 
-h1 {
+h1,
+#introWide h1 {
   color: rgb(194, 193, 193);
   /* color: #0a0a0b; */
   letter-spacing: 0.14em;

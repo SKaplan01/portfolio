@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import sarahKaplanResume from '../../assets/sarahKaplanResume.pdf'
 import ContactButtons from '../atoms/ContactButtons'
-import './contactForm.css'
+import './ContactForm.css'
 
 class ContactForm extends Component {
   constructor(props) {

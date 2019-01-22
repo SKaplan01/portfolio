@@ -1,15 +1,6 @@
 import React, { Component } from 'react'
 import sarahKaplanResume from '../../assets/sarahKaplanResume.pdf'
 import ContactButtons from '../atoms/ContactButtons'
-// import {
-//   Button,
-//   Form,
-//   FormGroup,
-//   Label,
-//   Input,
-//   Col,
-//   ButtonGroup,
-// } from 'reactstrap'
 import './contactForm.css'
 
 class ContactForm extends Component {
@@ -24,7 +15,6 @@ class ContactForm extends Component {
     }
 
     this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleChange(evt) {
@@ -32,8 +22,6 @@ class ContactForm extends Component {
       [evt.target.name]: evt.target.value,
     })
   }
-
-  handleSubmit(evt) {}
 
   render() {
     return (

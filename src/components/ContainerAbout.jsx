@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Intro from './atoms/Intro'
+import AboutMe from './molecules/AboutMe'
 import './container.css'
 
 class ContainerAbout extends Component {
@@ -14,7 +15,9 @@ class ContainerAbout extends Component {
           </div>
           <a id="workLink" />
         </div>
-        <div className="right" />
+        <div className="right">
+          <AboutMe />
+        </div>
       </div>
     )
   }

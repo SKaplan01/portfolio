@@ -4,6 +4,7 @@ import lsVoteGif from '../../assets/lsVoteGif.gif'
 import lipslutGif from '../../assets/lipslutGif.gif'
 import joblyMobile3 from '../../assets/joblyMobile3.png'
 import jobly from '../../assets/jobly.gif'
+import memoryGame2 from '../../assets/memoryGame2.gif'
 import './portfolioContainer.css'
 
 class PortfolioContainerMobile extends Component {
@@ -36,6 +37,19 @@ class PortfolioContainerMobile extends Component {
             support."
             githubUrl="https://github.com/SKaplan01/lipslut2.0"
             siteUrl="https://www.lipslut.com/"
+          />
+          <PortfolioCard
+            isFirst={false}
+            imgSrc={memoryGame2}
+            theme="#39991d"
+            imgAlt="Memory game gif"
+            title="Memory Game"
+            subtitle="Vanilla Javascript, HTML, and CSS"
+            caption="A memory card game for Parks and Rec fans. 
+            Click a card to reveal your favorite member of the Pawnee
+            Parks Department."
+            githubUrl="https://github.com/SKaplan01/memory-game"
+            siteUrl="https://skaplan01.github.io/memory-game/"
           />
         </div>
       </div>

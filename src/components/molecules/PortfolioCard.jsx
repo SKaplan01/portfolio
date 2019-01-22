@@ -1,10 +1,18 @@
 import React, { Component } from 'react'
 import CardButtonsMobile from '../atoms/CardButtonsMobile'
+import ProjectDetails from './ProjectDetails'
 import './portfolioCard.css'
 
 class PortfolioCard extends Component {
   constructor(props) {
     super(props)
+    this.state = { showDetails: false }
+    this.toggleModal = this.toggleModal.bind(this)
+  }
+
+  toggleModal() {
+    console.log('toggleModal ran')
+    this.setState(st => ({ showDetails: !st.showDetails }))
   }
 
   render() {
@@ -21,7 +29,6 @@ class PortfolioCard extends Component {
     return (
       <div id="card">
         {this.props.isFirst ? <h3 id="recentWork">Recent Work</h3> : null}
-        {/* <div id="topRow" style={{ borderTop: `7px dotted ${theme}` }}> */}
         <div id="topRow" style={{ borderTop: `4px solid ${theme}` }}>
           <div id="topLeft">
             <h4 style={{ color: theme }}>{title}</h4>
@@ -45,7 +52,7 @@ class PortfolioCard extends Component {
             </p>
           </div>
           <div id="lastRow">
-            <span className="highlightM" />
+            <span onClick={this.toggleModal} className="highlightM" />
 
             <button
               style={{
@@ -66,6 +73,13 @@ class PortfolioCard extends Component {
             </button>
           </div>
         </div>
+        {this.state.showDetails ? (
+          <ProjectDetails
+            toggleModal={this.toggleModal}
+            project={title}
+            theme={theme}
+          />
+        ) : null}
       </div>
     )
   }

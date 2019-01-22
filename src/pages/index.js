@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
+    <div id="modalContainer" />
     <Nav />
     <Container />
   </Layout>

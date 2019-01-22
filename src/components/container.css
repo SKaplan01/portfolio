@@ -15,6 +15,11 @@
   display: none;
 }
 
+#titleDesktop {
+  font-size: 0.75em;
+  margin-bottom: 1em;
+}
+
 .overlay {
   /* background-color: rgba(20, 20, 20, 0.644); */
   width: 100%;

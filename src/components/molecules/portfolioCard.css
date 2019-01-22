@@ -151,11 +151,9 @@ img {
     font-size: 0.8em;
     line-height: 1.8em;
   }
-}
-
-@media (max-width: 400px) {
   #topRow {
-    font-size: 0.9em;
+    font-size: 0.7em;
+    padding-top: 2.5em;
   }
 }
 
@@ -167,7 +165,7 @@ img {
     padding-top: 0em;
   }
   #topRow {
-    font-size: 0.7em;
+    font-size: 0.6em;
     padding-top: 2.5em;
   }
   #bottomRow p {

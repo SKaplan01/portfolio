@@ -8,9 +8,7 @@ class IntroBlurb extends Component {
     return (
       <div className="introBlurb">
         <p id="desktopBlurb">
-          <Link to="/page-2">
-            <div>skaplandev@gmail</div>
-          </Link>
+          <Link to="/page-2">skaplandev@gmail</Link>
           <br />
         </p>
         <p id="mobileBlurb">

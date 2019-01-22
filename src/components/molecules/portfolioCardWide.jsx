@@ -1,10 +1,18 @@
 import React, { Component } from 'react'
 import CardButtonsMobile from '../atoms/CardButtonsMobile'
+import ProjectDetails from './ProjectDetails'
 import './portfolioCardWide.css'
 
 class PortfolioCardWide extends Component {
   constructor(props) {
     super(props)
+    this.state = { showDetails: false }
+    this.toggleModal = this.toggleModal.bind(this)
+  }
+
+  toggleModal() {
+    console.log('toggleModal ran')
+    this.setState(st => ({ showDetails: !st.showDetails }))
   }
 
   render() {
@@ -36,7 +44,7 @@ class PortfolioCardWide extends Component {
               />
             </div>
             <div>
-              <span className="highlightM" />
+              <span onClick={this.toggleModal} className="highlightM" />
               <button
                 style={{
                   backgroundColor: theme,
@@ -71,6 +79,13 @@ class PortfolioCardWide extends Component {
             <p>{caption}</p>
           </div>
         </div>
+        {this.state.showDetails ? (
+          <ProjectDetails
+            toggleModal={this.toggleModal}
+            project={title}
+            theme={theme}
+          />
+        ) : null}
       </div>
     )
   }

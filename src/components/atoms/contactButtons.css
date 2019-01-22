@@ -3,6 +3,7 @@
   margin-bottom: 1.5em;
   width: 100%;
 }
+
 #contactButtons span {
   padding: 5px;
   padding-left: 8px;
@@ -27,6 +28,10 @@
   background-image: none;
 }
 
+#contactButtons.contactPage {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   #contactButtons span {
     font-size: 0.89em;
@@ -35,6 +40,9 @@
 }
 
 @media (max-width: 777px) {
+  #contactButtons.contactPage {
+    display: block;
+  }
   #contactButtons span {
     font-size: 1em;
     margin: 10px;

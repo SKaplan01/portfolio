@@ -13,7 +13,7 @@ class ContactButtons extends Component {
       color: 'rgb(245, 243, 243)',
     }
     return (
-      <div id="contactButtons">
+      <div id="contactButtons" className={this.props.contactPage}>
         <Link to="/contact" style={linkStyle}>
           <span id="emailButton">
             <FontAwesomeIcon icon="envelope" />

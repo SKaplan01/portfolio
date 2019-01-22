@@ -1,9 +1,62 @@
 #formContainer {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
   margin-top: 6em;
 }
 
 form {
+  /* background-color: rgba(26, 26, 26, 0.756); */
   background-color: white;
+  padding: 1.5em;
+  /* color: rgb(206, 206, 206); */
+}
+
+.formRow {
+  margin-bottom: 1em;
+}
+
+.formRow,
+#submitRow {
+  display: flex;
+  flex-direction: row;
+}
+
+#formContainer h4 {
+  margin-bottom: 1em;
+}
+
+.formRow label {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.formRow input,
+.formRow textarea {
+  display: inline-block;
+  width: 85%;
+}
+
+.formRow textarea {
+  height: 150px;
+}
+
+#submitRow {
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#submitRow input {
+  background-color: #3846c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+#buttonsBottom {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }

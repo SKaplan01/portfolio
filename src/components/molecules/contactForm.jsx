@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
-import {
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Col,
-  ButtonGroup,
-} from 'reactstrap'
+import sarahKaplanResume from '../../assets/sarahKaplanResume.pdf'
+import ContactButtons from '../atoms/ContactButtons'
+// import {
+//   Button,
+//   Form,
+//   FormGroup,
+//   Label,
+//   Input,
+//   Col,
+//   ButtonGroup,
+// } from 'reactstrap'
 import './contactForm.css'
 
 class ContactForm extends Component {
@@ -36,70 +38,52 @@ class ContactForm extends Component {
   render() {
     return (
       <div id="formContainer">
+        <h4>Let's Connect!</h4>
         <form action="https://formspree.io/skaplandev@gmail.com" method="POST">
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" />
-          <label htmlFor="message">Message</label>
-          <input type="text" name="message" />
-          <label htmlFor="email">Email</label>
-          <input type="email" name="_replyto" />
-          <input type="submit" value="Send" />
+          <div className="formRow">
+            <label htmlFor="name">Name:</label>
+            <input type="text" name="name" />
+          </div>
+          <div className="formRow">
+            <label htmlFor="message">Message:</label>
+            <textarea type="textarea" name="message" />
+          </div>
+          <div className="formRow">
+            <label htmlFor="email">Email:</label>
+            <input type="email" name="_replyto" />
+          </div>
+          <div id="submitRow">
+            <input type="submit" value="Send" />
+          </div>
+          <div>{this.state.error ? `${this.state.error}` : null}</div>
         </form>
-        {/* <Form onSubmit={this.handleSubmit}>
-          <FormGroup className="formGroup" row>
-            <Label className="label" htmlFor="email">
-              Email
-            </Label>
-            <Col sm={6}>
-              <Input
-                className="input"
-                type="email"
-                name="_replyto"
-                id="email"
-                value={this.state.email}
-                onChange={this.handleChange}
-              />
-            </Col>
-          </FormGroup>
-
-          <FormGroup className="formGroup" row>
-            <Label className="label" htmlFor="name">
-              Name:
-            </Label>
-            <Col sm={6}>
-              <Input
-                className="input"
-                type="text"
-                name="name"
-                id="name"
-                value={this.state.firstName}
-                onChange={this.handleChange}
-              />
-            </Col>
-          </FormGroup>
-
-          <FormGroup className="formGroup" row>
-            <Label className="label" htmlFor="message">
-              Message
-            </Label>
-            <Col sm={6}>
-              <Input
-                className="input"
-                type="text"
-                name="message"
-                id="message"
-                value={this.state.message}
-                onChange={this.handleChange}
-              />
-            </Col>
-          </FormGroup>
-          <FormGroup check row>
-            <Col sm={{ size: 10, offset: 2 }}>
-              <Button>Submit</Button>
-            </Col>
-          </FormGroup>
-        </Form>
-        <div>{this.state.error ? `${this.state.error}` : null}</div> */}
+        <div id="contactOptions">
+          <h4>Or reach me at...</h4>
+          <ul>
+            <li>skaplandev@gmail.com</li>
+            <li>
+              Download my{' '}
+              <a href={sarahKaplanResume} target="_blank">
+                resume
+              </a>
+            </li>
+            <li>
+              Check out my work on{' '}
+              <a href="https://github.com/skaplan01/" target="_blank">
+                Github
+              </a>
+            </li>
+            <li>
+              Connect with me on{' '}
+              <a href="https://www.linkedin.com/in/sarah-kaplan-dev/">
+                linkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="buttonsBottom">
+          <ContactButtons contactPage="contactPage" />
+        </div>
       </div>
     )
   }

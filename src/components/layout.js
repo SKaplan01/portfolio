@@ -51,15 +51,18 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet
-          title={data.site.siteMetadata.title}
+          title="Sarah Kaplan"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'Sarah Kaplan Portfolio', content: 'Software Engineer' },
+            {
+              name: 'keywords',
+              content:
+                'software, engineer, React, Redux, Javascript, Python, PostgreSQL, SQL, fullstack, Node, Express, HTML, CSS',
+            },
           ]}
         >
           <html lang="en" />
         </Helmet>
-        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div id="layout-div">{children}</div>
       </>
     )}

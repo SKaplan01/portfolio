@@ -14,7 +14,7 @@ class ContactButtons extends Component {
     }
     return (
       <div id="contactButtons">
-        <Link to="/page-2" style={linkStyle}>
+        <Link to="/contact" style={linkStyle}>
           <span id="emailButton">
             <FontAwesomeIcon icon="envelope" />
           </span>
@@ -49,29 +49,6 @@ class ContactButtons extends Component {
             <FontAwesomeIcon icon="file-download" color="rgb(245, 243, 243)" />
           </a>
         </span>
-        {/* <div style={{ display: 'inline-block', width: '6em', height: '3em' }}>
-          <span style={{ paddingLeft: '13px', paddingRight: '13px' }}>
-            <a
-              href={sarahKaplanResume}
-              target="_blank"
-              style={{ textDecoration: 'none', lineHeight: '9px' }}
-            >
-              <FontAwesomeIcon
-                icon="file-download"
-                color="rgb(206, 206, 206)"
-              />
-            </a>
-          </span>
-          <p
-            style={{
-              margin: '0px',
-              padding: '0px',
-              color: 'rgb(206, 206, 206)',
-            }}
-          >
-            Resume
-          </p>
-        </div> */}
       </div>
     )
   }

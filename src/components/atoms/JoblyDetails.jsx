@@ -33,12 +33,11 @@ class JoblyDetails extends Component {
         </div>
         <br />
         <p>
-          View on Github:{' '}
           <a
             style={{ textShadow: 'none', backgroundImage: 'none' }}
             href="https://github.com/SKaplan01/jobly"
           >
-            https://github.com/SKaplan01/jobly
+            View on Github
           </a>
         </p>
         <p>
@@ -64,6 +63,23 @@ class JoblyDetails extends Component {
             this presentation{' '}
           </a>{' '}
           I created for a lightning talk.
+        </p>
+
+        <p>
+          Collaborators:{' '}
+          <a
+            style={{ textShadow: 'none', backgroundImage: 'none' }}
+            href="https://github.com/skaplan01/"
+          >
+            Sarah Kaplan
+          </a>{' '}
+          and{' '}
+          <a
+            style={{ textShadow: 'none', backgroundImage: 'none' }}
+            href="https://github.com/hasierpastor"
+          >
+            Hasier Pastor
+          </a>
         </p>
       </div>
     )

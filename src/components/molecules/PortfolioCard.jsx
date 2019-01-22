@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CardButtonsMobile from '../atoms/CardButtonsMobile'
+import CardButtonsMobile from '../atoms/CardButtonsMobile.jsx'
 import ProjectDetails from './ProjectDetails'
 import './portfolioCard.css'
 

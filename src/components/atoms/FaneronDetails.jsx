@@ -10,6 +10,7 @@ class FaneronDetails extends Component {
     return (
       <div id="FaneronDetails">
         <h1 style={{ color: theme }}>Faneron</h1>
+        <hr />
         <p>
           Lipslut.com sells makeup to benefit progressive causes. As an intern
           for Faneron, I worked on several features for lipslut 2.0, focusing on

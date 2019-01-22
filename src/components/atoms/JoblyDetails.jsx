@@ -8,6 +8,7 @@ class JoblyDetails extends Component {
     return (
       <div id="joblyDetails">
         <h1 style={{ color: theme }}>Jobly</h1>
+        <hr />
         <p>
           Jobly is a mock app where users can view job postings and apply for
           open positions. The frontend is built with React and styled with

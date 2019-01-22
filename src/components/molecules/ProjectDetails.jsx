@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ModalLayout from '../ModalLayout'
 import JoblyDetails from '../atoms/JoblyDetails'
 import FaneronDetails from '../atoms/FaneronDetails'
+import MemoryDetails from '../atoms/MemoryDetails'
 import './ProjectDetails.css'
 
 const style = {
@@ -44,6 +45,8 @@ class ProjectDetails extends Component {
       innerContent = <JoblyDetails theme={theme} />
     } else if (this.props.project === 'Faneron') {
       innerContent = <FaneronDetails theme={theme} />
+    } else if (this.props.project === 'Memory Game') {
+      innerContent = <MemoryDetails theme={theme} />
     }
     return (
       <ModalLayout>

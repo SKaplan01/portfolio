@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import PortfolioCard from './PortfolioCard'
-import lsVoteGif from '../../assets/lsVoteGif.gif'
 import lipslutGif from '../../assets/lipslutGif.gif'
 import joblyMobile3 from '../../assets/joblyMobile3.png'
-import jobly from '../../assets/jobly.gif'
 import memoryGame2 from '../../assets/memoryGame2.gif'
 import './portfolioContainer.css'
 

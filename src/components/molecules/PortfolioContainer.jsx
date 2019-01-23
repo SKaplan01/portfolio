@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PortfolioCardWide from './PortfolioCardWide.jsx'
-import lsVoteGif from '../../assets/lsVoteGif.gif'
 import lipslutGif from '../../assets/lipslutGif.gif'
 import jobly from '../../assets/jobly.png'
 import joblyMobile3 from '../../assets/joblyMobile3.png'

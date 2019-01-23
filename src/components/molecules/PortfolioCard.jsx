@@ -43,8 +43,8 @@ class PortfolioCard extends Component {
             </div>
           </div>
         </div>
-
         <img src={imgSrc} alt={imgAlt} />
+
         <div id="captionRow">
           <div id="subtitle">
             <p style={{ fontSize: '1em', letterSpacing: '0.12em' }}>

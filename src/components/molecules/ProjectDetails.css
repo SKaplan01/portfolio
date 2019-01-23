@@ -17,6 +17,11 @@
   font-size: 1.4em;
 }
 
+#DetailsContentContainer p,
+#DetailsContentContainer li {
+  color: rgb(28, 28, 28);
+}
+
 @media (max-width: 1220px) {
   #DetailsContentContainer img {
     width: 85%;

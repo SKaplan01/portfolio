@@ -1,6 +1,6 @@
 #portfolioContainer {
   margin: 0 auto;
-  padding: 5em;
+  padding: 3em;
   padding-top: 2.2em;
 }
 
@@ -15,11 +15,11 @@
 
 @media (max-width: 1148px) {
   #portfolioContainer {
-    padding: 3em;
+    padding: 2em;
     padding-top: 2.2em;
   }
   #cardContainer {
-    max-width: 600px;
+    /* max-width: 600px; */
   }
 }
 

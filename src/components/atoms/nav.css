@@ -2,13 +2,14 @@
   width: 100vw;
   height: 40px;
   position: fixed;
-  right: 0px;
+  left: 0px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background-color: rgba(11, 12, 27, 0.938);
   letter-spacing: 0.1em;
   z-index: 1000;
+  max-width: 1220px;
 }
 
 #navContainer-left,

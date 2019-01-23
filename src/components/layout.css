@@ -6,6 +6,10 @@ a {
   text-decoration: none;
 }
 
+#layout-div {
+  background-color: rgb(247, 244, 244);
+}
+
 /* GATSBY DEFAULT CSS */
 /* . */
 /* html {

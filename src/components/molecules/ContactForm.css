@@ -4,11 +4,14 @@
   margin-top: 6em;
 }
 
+#formContainer li {
+  color: rgb(46, 46, 46);
+}
+
 form {
-  /* background-color: rgba(26, 26, 26, 0.756); */
   background-color: white;
   padding: 1.5em;
-  /* color: rgb(206, 206, 206); */
+  color: rgb(46, 46, 46);
 }
 
 .formRow {

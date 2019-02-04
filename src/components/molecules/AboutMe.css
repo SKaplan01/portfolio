@@ -18,6 +18,7 @@
 
 #floated {
   float: left;
+  margin-top: 1.3em;
 }
 
 #pictureRow {
@@ -29,6 +30,7 @@
 #pictureRow img {
   width: 240px;
   height: 240px;
+  padding: 0.5em;
 }
 
 @media (max-width: 1220px) {

@@ -77,10 +77,10 @@ class AboutMe extends Component {
           </p>
 
           <p>
-            I enrolled in Rithm School--a 17-week intensive, in-person program
-            focused on React, Node, Python, PostgreSQL, and data structures.
-            During this program, I had the chance to develop several new
-            features for Faneron, an e-commerce site that sells lipstick to
+            I enrolled in Rithm School&mdash;a 17-week intensive, in-person
+            program focused on React, Node, Python, PostgreSQL, and data
+            structures. During this program, I had the chance to develop several
+            new features for Faneron, an e-commerce site that sells lipstick to
             benefit progressive organizations. It was exciting to jump into a
             new codebase with an unfamiliar tech stack (their site is built with
             GatsbyJS and GraphQL) and to realize how quickly I could contribute

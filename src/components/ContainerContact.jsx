@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 import Intro from './atoms/Intro'
 import ContactForm from './molecules/ContactForm'
 import './container.css'
@@ -15,7 +16,19 @@ class ContainerContact extends Component {
           </div>
           <a id="workLink" />
         </div>
-        <div className="right">
+        <div className="right mobile">
+          <div className="navContainer-right navWide">
+            <Link to="/">
+              <span>Home</span>
+            </Link>
+            <Link to="/about">
+              <span>About</span>
+            </Link>
+
+            <Link to="/contact">
+              <span>Contact</span>
+            </Link>
+          </div>
           <ContactForm />
         </div>
       </div>

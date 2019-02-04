@@ -8,12 +8,12 @@ class Nav extends Component {
   render() {
     return (
       <div id="navContainer-full">
-        <div id="navContainer-left">
+        <div className="navContainer-left">
           <Link to="/">
             <span>Home</span>
           </Link>
         </div>
-        <div id="navContainer-right">
+        <div className="navContainer-right">
           <Link to="/about">
             <span>About</span>
           </Link>

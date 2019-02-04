@@ -1,3 +1,7 @@
+.container {
+  min-width: 1250px;
+}
+
 #formContainer {
   width: 75%;
   margin: 0 auto;
@@ -62,4 +66,20 @@ form {
   text-align: center;
   margin-top: 3em;
   margin-bottom: 3em;
+}
+
+#contactOptions {
+  margin-top: 2.5em;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    min-width: 1050px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    min-width: 800px;
+  }
 }

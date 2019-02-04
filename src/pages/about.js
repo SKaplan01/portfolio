@@ -6,8 +6,14 @@ import Layout from '../components/layout'
 
 const AboutPage = () => (
   <Layout>
-    <Nav />
-    <ContainerAbout />
+    <div id="outerBox">
+      <div id="leftFill" />
+      <div id="positioned">
+        <Nav />
+        <ContainerAbout />
+      </div>
+      <div id="rightFill" />
+    </div>
   </Layout>
 )
 

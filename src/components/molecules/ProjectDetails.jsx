@@ -25,6 +25,7 @@ const projectDetailsStyle = {
   padding: '2em',
   backgroundColor: 'white',
   width: '90%',
+  maxWidth: '1200px',
   height: '90%',
   margin: '0 auto',
   overflow: 'scroll',
@@ -50,8 +51,8 @@ class ProjectDetails extends Component {
     }
     return (
       <ModalLayout>
-        <div style={style}>
-          <div style={projectDetailsStyle}>
+        <div style={style} onClick={this.props.toggleModal}>
+          <div style={projectDetailsStyle} onClick={this.props.toggleModal}>
             <button style={buttonStyle} onClick={this.props.toggleModal}>
               X
             </button>

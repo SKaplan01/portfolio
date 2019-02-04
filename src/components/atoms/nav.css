@@ -24,6 +24,8 @@
 .navContainer-right.navWide {
   right: 0;
   width: 100%;
+  padding-right: 20px;
+  padding-top: 1em;
 }
 
 .navContainer-left,

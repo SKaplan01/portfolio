@@ -14,6 +14,7 @@ class ModalLayout extends Component {
   componentDidMount() {
     this.modalRoot = document.getElementById('modalContainer')
     this.modalRoot.appendChild(this.modalNode)
+    document.body.style.overflow = 'hidden'
   }
 
   componentWillUnmount() {
